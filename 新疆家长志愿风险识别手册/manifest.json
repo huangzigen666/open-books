@@ -1,0 +1,412 @@
+﻿[
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\.gitignore",
+        "Length":  159,
+        "LastWriteTime":  "\/Date(1782416260231)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\00_创作方法抽取.md",
+        "Length":  2325,
+        "LastWriteTime":  "\/Date(1782329437001)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\01_选题策划.md",
+        "Length":  2394,
+        "LastWriteTime":  "\/Date(1782329437004)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\02_目录设计.md",
+        "Length":  2140,
+        "LastWriteTime":  "\/Date(1782329437006)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录A_招生章程核验表.md",
+        "Length":  9996,
+        "LastWriteTime":  "\/Date(1782331882977)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录B_官方证据清单.md",
+        "Length":  8657,
+        "LastWriteTime":  "\/Date(1782364049115)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录C_联系与服务边界.md",
+        "Length":  3822,
+        "LastWriteTime":  "\/Date(1782363620878)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录D_专项类型核验卡.md",
+        "Length":  9342,
+        "LastWriteTime":  "\/Date(1782364006749)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录E_系统证据留存与案例脱敏卡.md",
+        "Length":  4234,
+        "LastWriteTime":  "\/Date(1782333242727)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\assets\\contact-card.svg",
+        "Length":  2157,
+        "LastWriteTime":  "\/Date(1782364101130)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\assets\\cover.svg",
+        "Length":  1788,
+        "LastWriteTime":  "\/Date(1782364101130)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\book.md",
+        "Length":  2268,
+        "LastWriteTime":  "\/Date(1782364074328)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\book_full.md",
+        "Length":  91602,
+        "LastWriteTime":  "\/Date(1782364101114)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\README.md",
+        "Length":  684,
+        "LastWriteTime":  "\/Date(1782333242732)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\案例_低分段路径选择_合成.md",
+        "Length":  2142,
+        "LastWriteTime":  "\/Date(1782330131193)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\案例_调剂后悔风险_合成.md",
+        "Length":  1761,
+        "LastWriteTime":  "\/Date(1782330131215)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\案例_专项资格误判_合成.md",
+        "Length":  1898,
+        "LastWriteTime":  "\/Date(1782330131214)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\00_前言.md",
+        "Length":  3293,
+        "LastWriteTime":  "\/Date(1782329437023)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\01_志愿填报的第一性原理.md",
+        "Length":  4381,
+        "LastWriteTime":  "\/Date(1782329437029)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\02_新疆家长的第一道锁.md",
+        "Length":  4997,
+        "LastWriteTime":  "\/Date(1782332973951)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\03_冲稳保不是万能药.md",
+        "Length":  3861,
+        "LastWriteTime":  "\/Date(1782329437034)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\04_招生章程才是硬门槛.md",
+        "Length":  5511,
+        "LastWriteTime":  "\/Date(1782331922987)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\05_AI能帮什么不能替你做什么.md",
+        "Length":  4158,
+        "LastWriteTime":  "\/Date(1782332973953)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\06_家长决策会怎么开.md",
+        "Length":  3793,
+        "LastWriteTime":  "\/Date(1782329437043)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\07_低分段不是没路.md",
+        "Length":  6068,
+        "LastWriteTime":  "\/Date(1782329962301)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\08_专项场景不能套通用模板.md",
+        "Length":  6410,
+        "LastWriteTime":  "\/Date(1782332684684)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\09_填报前72小时行动表.md",
+        "Length":  4405,
+        "LastWriteTime":  "\/Date(1782332973954)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\chapters\\10_合格志愿方案长什么样.md",
+        "Length":  5874,
+        "LastWriteTime":  "\/Date(1782332973956)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\config\\consultation_entry.json",
+        "Length":  556,
+        "LastWriteTime":  "\/Date(1782363620877)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\CONTRIBUTING.md",
+        "Length":  989,
+        "LastWriteTime":  "\/Date(1782330414301)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\book.pdf",
+        "Length":  2363660,
+        "LastWriteTime":  "\/Date(1782364125035)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\contact.html",
+        "Length":  7022,
+        "LastWriteTime":  "\/Date(1782364101130)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\index.html",
+        "Length":  137052,
+        "LastWriteTime":  "\/Date(1782364101129)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\README.md",
+        "Length":  275,
+        "LastWriteTime":  "\/Date(1782364101130)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\cfri_2026_admission_charter.html",
+        "Length":  33257,
+        "LastWriteTime":  "\/Date(1782363938630)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\cfri_admission_charters_index.html",
+        "Length":  19858,
+        "LastWriteTime":  "\/Date(1782363938855)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\fire_rescue_2026_extracted_key_points.md",
+        "Length":  3524,
+        "LastWriteTime":  "\/Date(1782363964720)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\README.md",
+        "Length":  4353,
+        "LastWriteTime":  "\/Date(1782364049118)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\sources.json",
+        "Length":  7272,
+        "LastWriteTime":  "\/Date(1782363979083)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xj_fire_2026_fire_rescue_wechat.html",
+        "Length":  3023821,
+        "LastWriteTime":  "\/Date(1782363875628)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2025_reform_qna_3.html",
+        "Length":  89204,
+        "LastWriteTime":  "\/Date(1782330657443)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_admission_rules.html",
+        "Length":  178614,
+        "LastWriteTime":  "\/Date(1782330657238)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_fire_rescue_college.html",
+        "Length":  20411,
+        "LastWriteTime":  "\/Date(1782332436646)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_military_academy.html",
+        "Length":  65068,
+        "LastWriteTime":  "\/Date(1782330657546)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_nco_training.html",
+        "Length":  29567,
+        "LastWriteTime":  "\/Date(1782330657755)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_police_college.html",
+        "Length":  81834,
+        "LastWriteTime":  "\/Date(1782330657663)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_score_lines.html",
+        "Length":  28782,
+        "LastWriteTime":  "\/Date(1782330656834)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_score_query_notice.html",
+        "Length":  32797,
+        "LastWriteTime":  "\/Date(1782332881966)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_vocational_single_admission.html",
+        "Length":  47867,
+        "LastWriteTime":  "\/Date(1782330657848)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2026_volunteer_system.html",
+        "Length":  35116,
+        "LastWriteTime":  "\/Date(1782330656993)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_2027_subject_requirements.html",
+        "Length":  28747,
+        "LastWriteTime":  "\/Date(1782330657339)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_score_query_portal.html",
+        "Length":  19434,
+        "LastWriteTime":  "\/Date(1782332882061)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\xjzk_volunteer_portal.html",
+        "Length":  18015,
+        "LastWriteTime":  "\/Date(1782332882180)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\cjc_2026_chsi_charter.html",
+        "Length":  90088,
+        "LastWriteTime":  "\/Date(1782331572897)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\extracted_charter_risks.md",
+        "Length":  7473,
+        "LastWriteTime":  "\/Date(1782331869905)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\README.md",
+        "Length":  3128,
+        "LastWriteTime":  "\/Date(1782331855089)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\shzu_2026_charter.html",
+        "Length":  74672,
+        "LastWriteTime":  "\/Date(1782330715492)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\sources.json",
+        "Length":  4206,
+        "LastWriteTime":  "\/Date(1782331844269)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xjmu_2025_charter_not_2026.html",
+        "Length":  51065,
+        "LastWriteTime":  "\/Date(1782330717743)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xjmu_2026_chsi_charter.html",
+        "Length":  62458,
+        "LastWriteTime":  "\/Date(1782331572534)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xjnu_2026_charter.html",
+        "Length":  44016,
+        "LastWriteTime":  "\/Date(1782330716206)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xju_2026_charter_notice_index.html",
+        "Length":  34259,
+        "LastWriteTime":  "\/Date(1782330716818)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xju_2026_chsi_charter.html",
+        "Length":  114505,
+        "LastWriteTime":  "\/Date(1782331572181)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\zzu_2026_chsi_charter.html",
+        "Length":  134113,
+        "LastWriteTime":  "\/Date(1782331827288)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\system\\README.md",
+        "Length":  875,
+        "LastWriteTime":  "\/Date(1782333242735)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\examples\\官方数据入口核验记录.md",
+        "Length":  1474,
+        "LastWriteTime":  "\/Date(1782332973960)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\examples\\招生章程核验样例.md",
+        "Length":  9605,
+        "LastWriteTime":  "\/Date(1782331914083)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\LICENSE.md",
+        "Length":  551,
+        "LastWriteTime":  "\/Date(1782329436998)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\manifest.json",
+        "Length":  17355,
+        "LastWriteTime":  "\/Date(1782364139482)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\NEXT_ACTIONS.md",
+        "Length":  3317,
+        "LastWriteTime":  "\/Date(1782416244737)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\PUBLICATION_NOTES.md",
+        "Length":  4300,
+        "LastWriteTime":  "\/Date(1782416244735)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\README.md",
+        "Length":  4770,
+        "LastWriteTime":  "\/Date(1782416244735)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\RELEASE_CHECKLIST.md",
+        "Length":  2297,
+        "LastWriteTime":  "\/Date(1782416244736)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\research\\官方依据_2026-06-25.md",
+        "Length":  5151,
+        "LastWriteTime":  "\/Date(1782333004091)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\scripts\\build_publish.py",
+        "Length":  22011,
+        "LastWriteTime":  "\/Date(1782363686024)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\scripts\\validate_release.py",
+        "Length":  11423,
+        "LastWriteTime":  "\/Date(1782416215163)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\templates\\案例脱敏处理清单.md",
+        "Length":  1480,
+        "LastWriteTime":  "\/Date(1782333242729)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\templates\\家长信息采集卡.md",
+        "Length":  877,
+        "LastWriteTime":  "\/Date(1782329437013)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\templates\\系统证据留存清单.md",
+        "Length":  1716,
+        "LastWriteTime":  "\/Date(1782333242728)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\templates\\志愿风险体检报告模板.md",
+        "Length":  1312,
+        "LastWriteTime":  "\/Date(1782332973964)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\templates\\咨询入口配置表.md",
+        "Length":  1428,
+        "LastWriteTime":  "\/Date(1782363620877)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\VALIDATION_REPORT.md",
+        "Length":  2523,
+        "LastWriteTime":  "\/Date(1782416252669)\/"
+    }
+]

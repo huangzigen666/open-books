@@ -1,0 +1,13 @@
+﻿# local artifacts
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# generated browser profiles
+.tmp-browser-profile/
+
+# optional generated files
+*.bak

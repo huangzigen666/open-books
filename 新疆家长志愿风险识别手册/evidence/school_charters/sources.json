@@ -1,0 +1,82 @@
+﻿[
+    {
+        "name":  "shzu_2026_charter",
+        "title":  "石河子大学2026年本专科招生章程",
+        "url":  "https://zsb.shzu.edu.cn/2026/0530/c14089a232887/page.htm",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\shzu_2026_charter.html",
+        "status":  "saved",
+        "note":  "正文已打开",
+        "bytes":  74672,
+        "fetched_at":  "2026-06-25T03:51:55"
+    },
+    {
+        "name":  "xjnu_2026_charter",
+        "title":  "新疆师范大学2026年普通本科招生章程",
+        "url":  "https://www.xjnu.edu.cn/info/1071/71002.htm",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xjnu_2026_charter.html",
+        "status":  "saved",
+        "note":  "正文已打开",
+        "bytes":  44016,
+        "fetched_at":  "2026-06-25T03:51:56"
+    },
+    {
+        "name":  "xju_2026_charter_notice_index",
+        "title":  "新疆大学通知公告页：含2026年普通本科招生章程发布线索",
+        "url":  "https://www.xju.edu.cn/xwzx/tzgg.htm",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xju_2026_charter_notice_index.html",
+        "status":  "saved",
+        "note":  "官网列表线索，正文跳微信公众号，需人工存档",
+        "bytes":  34259,
+        "fetched_at":  "2026-06-25T03:51:56"
+    },
+    {
+        "name":  "xjmu_2025_charter_not_2026",
+        "title":  "新疆医科大学招生章程页面：正文显示2025年招生章程",
+        "url":  "https://www.xjmu.edu.cn/info/1308/12406.htm",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xjmu_2025_charter_not_2026.html",
+        "status":  "saved",
+        "note":  "搜索标题与正文冲突，不能作为2026证据",
+        "bytes":  51065,
+        "fetched_at":  "2026-06-25T03:51:57"
+    },
+    {
+        "name":  "xju_2026_chsi_charter",
+        "title":  "新疆大学2026年普通本科招生章程",
+        "url":  "https://gaokao.chsi.com.cn/zsgs/zhangcheng/listVerifedZszc--infoId-7669091710%2Cmethod-view%2CschId-590.dhtml",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xju_2026_chsi_charter.html",
+        "status":  "saved",
+        "note":  "阳光高考审核页，正文已归档",
+        "bytes":  114505,
+        "fetched_at":  "2026-06-25T04:08:00"
+    },
+    {
+        "name":  "xjmu_2026_chsi_charter",
+        "title":  "新疆医科大学2026年招生章程",
+        "url":  "https://gaokao.chsi.com.cn/zsgs/zhangcheng/listVerifedZszc--infoId-7669146336%2Cmethod-view%2CschId-594.dhtml",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\xjmu_2026_chsi_charter.html",
+        "status":  "saved",
+        "note":  "阳光高考审核页，正文已归档；学校官网页面仍保留为反面样例",
+        "bytes":  62458,
+        "fetched_at":  "2026-06-25T04:08:00"
+    },
+    {
+        "name":  "cjc_2026_chsi_charter",
+        "title":  "昌吉学院2026年普通本科招生章程",
+        "url":  "https://gaokao.chsi.com.cn/zsgs/zhangcheng/listVerifedZszc--infoId-7667003350%2Cmethod-view%2CschId-686.dhtml",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\cjc_2026_chsi_charter.html",
+        "status":  "saved",
+        "note":  "阳光高考审核页，正文已归档",
+        "bytes":  90088,
+        "fetched_at":  "2026-06-25T04:08:00"
+    },
+    {
+        "name":  "zzu_2026_chsi_charter",
+        "title":  "郑州大学2026年本科招生章程",
+        "url":  "https://gaokao.chsi.com.cn/zsgs/zhangcheng/listVerifedZszc--method-view%2CschId-361%2CinfoId-7654887735.dhtml",
+        "local":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\school_charters\\zzu_2026_chsi_charter.html",
+        "status":  "saved",
+        "note":  "阳光高考审核页，正文已归档；疆外高校样例",
+        "bytes":  134113,
+        "fetched_at":  "2026-06-25T04:10:27"
+    }
+]

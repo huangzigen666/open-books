@@ -1,0 +1,372 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+
+<!-- css -->
+<!-- <link rel="shortcut icon" type="image/ico" href="${prefix('images/favicon.ico')}" /> -->
+<link rel="stylesheet" href="/css/slick.css">
+<link rel="stylesheet" href="/css/layout.css">
+
+<!-- js -->
+  
+<script src="/js/jquery.min.js"></script>
+<script src="/js/zcms_common.min.js" contextpath="https://www.xjzk.gov.cn/"></script>
+<script src="/js/zcms_frontend.js" contextpath="https://www.xjzk.gov.cn/"></script>
+<script src="/js/slick.js"></script>
+
+<script>
+	var frontAppContext = 'https://www.xjzk.gov.cn/';
+	var siteID = "122";
+	var siteURL = "http://www.xjzk.gov.cn/";
+ 	var siteAlias= "";
+	var isPreview = false;
+  	var url = window.location.href;
+  	if(url.indexOf(frontAppContext) === 0){
+	    var path=url.substring(frontAppContext.length);
+	    if(path.indexOf('/preview/')===0||path.indexOf('preview/')===0){
+	      isPreview=true;
+	      siteURL = "https://www.xjzk.gov.cn/preview/xjjyksy/";
+		}
+	}
+</script>
+<script>
+$(function(){
+	$('#main .inner .slider').slick({
+		autoplay: true,
+		arrows: false,
+		dots: true
+	});
+	
+	$('#main .tabPanel').hide();
+	$('#main .tabPanel').eq(0).show();
+
+	$('#main .tabNavi li a').click(function(){
+		var ind=$(this).parent('li').index();
+		$(this).parent('li').addClass('on').siblings().removeClass('on');
+		$('#main .tabPanel').hide();		
+		$('#main .tabPanel:eq('+ind+')').show();
+		return false;
+	});
+});
+</script>
+<script>
+if(((navigator.userAgent.indexOf('iPhone') > 0) || (navigator.userAgent.indexOf('Android') > 0) && (navigator.userAgent.indexOf('Mobile') > 0) && (navigator.userAgent.indexOf('SC-01C') == -1))){
+document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">');
+}                                         
+</script>
+<!--[if lt IE 9]>
+<script src="${prefix('template/js/html5.js')}"></script>
+<![endif]-->
+
+<script>
+  function linkSelected(sobj) {
+	var docurl =sobj.options[sobj.selectedIndex].value; 
+    var a = $("<a href='"+docurl+"' target='_blank'>a</a>").get(0);
+    var e = document.createEvent('MouseEvents');
+    e.initEvent( 'click', true, true );
+    a.dispatchEvent(e);
+  }
+</script>
+  <title>关于做好2026年军队院校招收普通高中毕业生工作的通知 - 政策资讯 - 新疆教育考试院</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="根据教育部，军委政治工作部和训练管理部《关于印发〈2026年军队院校招收普通高中毕业生计划〉的通知" />
+    <link rel="stylesheet" type="text/css" href="/css/details.css" />
+</head>
+<body>	
+	<div id="container">
+      <!-- 头部 -->
+      
+<div id="header">
+  <div class="head-withbg">
+  		<div class="hInner clearfix">
+		<div class="logo">
+          	<a class="logo-link" href="http://www.xjzk.gov.cn/">
+           	 <img class="xjksy-logo" src="/img/common/xjksy-logo1.png"  alt="" /> 
+              <img class="logo-Img" src="/img/common/logo.png"  alt="" />
+                                                                        
+          	 </a>
+          </div>
+			<div class="rBox clearfix">
+             <!--样式修改bign--->
+    
+             <!--目前暂用样式bign--->
+              <div class="div-img" style="border:0px solid #090;">
+              	  <!--<img class="ewm-img" src="${prefix('img/common/h_img.png')}" alt=""/>-->
+               	   <img class="ewm-img" src="/img/common/erweima2.jpg" alt=""/>
+                
+              </div>
+              
+              <div class="olderVersion" style="border:0px solid #f90;    float: right!important;"> 
+              	 <!--<a href="http://124.117.250.21:8000/" class="olderVersion-link" target="_blank" >回顾旧版本</a>-->
+              </div>
+			
+				<div class="search" style="border:0px solid #0f0;float:right;">
+                  <!--文件注释部分-bign--->
+                 <!--  <form name="queryForm" method="get" action="${Site.Url}search/result.shtml" target="_blank">
+                  </form>  -->
+                   <!--文件注释部分-end--->
+                   <!--文件form-暂时全部关掉--->
+                   <!-- 
+                  <form name="queryForm" method="get" action="https://www.xjzk.gov.cn/search/result.shtml" target="_blank">
+                    <input type="hidden" name="siteID" value="${Site.ID}"/>
+                  <input id="query" type="text" value="" name="query" suggest="true" suggestsource="Search.suggest" placeholder="请输入关键字" onfocus="if(this.placeholder=='请输入关键字')this.placeholder=''" onblur="if(this.placeholder =='') this.placeholder ='请输入关键字'"/><a href="#" onclick="queryForm.submit()"><img src="${prefix('img/common/icon03.png')}" alt=""/></a>
+                    </form>
+					-->
+                    </div>
+                   
+			</div>
+		</div>  
+  </div>
+
+  <div id="gNavi">
+    <div class="navi">
+      <ul class="clearfix nav-style">
+        <li><a href="http://www.xjzk.gov.cn/" class="Home-link">首页</a></li>
+        
+          <li>
+            <a href="/jg/ksyjj/">机构</a>
+          </li>
+        
+		
+          <li>
+            <a href="/zc/">政策</a>
+          </li>
+        
+        
+     <!---
+		<cms:catalog alias="nbjs">
+          <li>
+            <a href="${Catalog.Link}">${Catalog.Name}</a>
+          </li>
+        </cms:catalog>
+		--->
+         
+          <li>
+            <a href="/ksxm/">考试项目</a>
+          </li>
+        
+        
+          <li>
+            <a href="/kwdc/">咨询举报</a>
+          </li>
+        
+        
+          <li>
+            <a href="/lxwm/">联系我们</a>
+          </li>
+        
+        
+     </ul>
+  	</div>
+    <!-----------测试bign---->
+
+    <!-----------测试end------>
+   
+	<div class="subNavi">
+      <ul class="clearfix Submenu">
+        
+        	<li><a href="/gkgz/">高考高招</a></li>
+        
+		
+        	<li><a href="/ykyz/">研考研招</a></li>
+        
+        
+        	<li><a href="/gnq/jyjxx/crgk/"> 成人高考</a></li>
+        
+        
+        	<li><a href="/zxks/">自学考试</a></li>
+        
+		
+        	<li><a href="/zkzz/">中考中招</a></li>
+        
+		
+        	<li><a href="/gzxk/">高中学考</a></li>
+        
+        
+        	<li><a href="/gkgz/crgk/zsbks/">普通专升本考试</a></li>
+        
+          
+        	<li><a href="/jszgks/">教师资格考试</a></li>
+        
+        
+        
+		
+        	<li><a href="/shks/">社会考试</a></li>
+        
+        </ul>
+    </div>
+ 
+  </div>
+</div>
+
+      <!-- /头部 -->
+      <div class="mainImg">
+          <h2 class="h2Ttl">政策资讯<img src="/img/common/img01.png" alt="" /></h2>
+      </div>
+
+      <div id="main" class="clearfix" style="border-left: none;">
+         <div id="detail_conts">
+           <div class="tabPanel">
+           	<p class="ttl">当前位置：<a href='/'>首页</a>>><a href='/gkgz/'>高考高招</a>>><a href='/gkgz/tslxks/tzgg/'>特殊类型考试</a>>><a href='/gkgz/tslxks/zczx/'>政策资讯</a></p>
+           </div>
+            
+			<h1>关于做好2026年军队院校招收普通高中毕业生工作的通知</h1>
+			<div class="date">发布时间：2026-06-23&#32;19:32</div> 
+			<div class="txt"><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">根据教育部，军委政治工作部</span></span><span style=";font-family:仿宋_GB2312;font-size:21px">和</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">训练管理部《关于印发〈</span>202</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">年军队院校招收普通高中毕业生计划〉的通知》</span></span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px"><span style="font-family:楷体_GB2312">（军训〔</span>202</span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px">6</span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px"><span style="font-family:楷体_GB2312">〕</span></span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px">74</span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px"><span style="font-family:楷体_GB2312">号）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">和自治区招生委员会《新疆维吾尔自治区</span>202</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">年普通高校招生工作规定》精神，现就做好</span>202</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">年军队院校招收普通高中毕业生有关事宜明确如下：</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:黑体">一、组织领导和职责分工</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">在自治区教育厅和新疆军区参谋部领导下，由自治区征兵办公室和自治区教育考试院共同负责我区军队院校招生工作，主要任务是指导协调全疆军队院校招生体质测试成绩认定、政治考核、军检</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（面试、体格检查）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">、录取等工作。建立健全信息共享、研究会商等制度机制，及时协调解决矛盾问题，确保招生工作顺畅有序组织实施。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">各地（州、市，含兵团系统）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">教育考试机构</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">和征兵办公室成立本地招生工作组织领导机构，负责收集、汇总考生信息；指导本地所属高级中学提供报考军队院校考生高中阶段《国家学生体质健康标准》登记卡；通知考生按时参加政治考核和军检工作。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:20px"><span style="font-family:仿宋_GB2312">各县</span></span><span style=";font-family:仿宋_GB2312;font-size:20px">（</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:20px"><span style="font-family:仿宋_GB2312">市、区、兵团师</span></span><span style=";font-family:仿宋_GB2312;font-size:20px">）</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:20px"><span style="font-family:仿宋_GB2312">人武部做好军队院校招生宣传动员工作，会同地方公安、教育部门组织考生政治考核，为完成学籍电子注册的新生办理入伍手续。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:黑体">二、报考条件</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">参加</span>202</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">年普通高等学校招生全国统一考试的普通高中应届、往届毕业生；未婚，年龄不低于</span>16<span style="font-family:仿宋_GB2312">周岁、不超过</span><span style="font-family:Times New Roman">20</span><span style="font-family:仿宋_GB2312">周岁</span></span><span style=";font-family:楷体_GB2312;font-size:19px">（</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px">200</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">年</span>9<span style="font-family:楷体_GB2312">月</span><span style="font-family:Times New Roman">1</span><span style="font-family:楷体_GB2312">日至</span><span style="font-family:Times New Roman">20</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px">10</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">年</span>8<span style="font-family:楷体_GB2312">月</span><span style="font-family:Times New Roman">31</span><span style="font-family:楷体_GB2312">日期间出生</span></span><span style=";font-family:楷体_GB2312;font-size:19px">）</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">；高中阶段体质测试成绩及格（含）以上；飞行、机要、刑侦、艺术等专业有特殊招生要求的，以各军队院校招生章程为准。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:黑体">三、体质健康测试成绩</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">依据国家教育部《国家学生体质健康标准》《学生体质健康监测评价办法》有关规定，由考生所在中学按照国家统一标准认定考生体质健康测试成绩。各地（州、市）教育考试机构指导考生所在中学从</span><span style="font-family:Times New Roman">“</span><span style="font-family:仿宋_GB2312">国家学生体质健康标准数据管理与分析系统</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">（</span><span style="font-family:Times New Roman">www.csh.moe.edu.cn</span><span style="font-family:仿宋_GB2312">）中调取成绩并出具高中阶段《〈国家学生体质健康标准〉登记卡》，根据表格内容签字盖章，保证要素齐全、真实准确。无法提供该表的往届毕业生由复读前学校提供体质健康情况证明材料。考生参加军队组织的政治考核、军检时，需携带《〈国家学生体质健康标准〉登记卡》备查。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:黑体">四、政治考核</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px;background:rgb(255,255,255)"><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">政治考核主要考核考生本人政治思想表现以及亲属的政治背景和违法犯罪等情况，按照《军队征集和招录人员政治考核规定》</span></span><span style="font-family: &#39;Times New Roman&#39;;letter-spacing: -1px;font-size: 19px"><span style="font-family:楷体_GB2312">（军法〔</span>2021<span style="font-family:楷体_GB2312">〕</span><span style="font-family:Times New Roman">62</span><span style="font-family:楷体_GB2312">号）</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">执行，由学校所在地县级人武部负责。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px;background:rgb(255,255,255)"><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:楷体_GB2312">（一）填写政治考核表格。</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px">6<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">10</span><span style="font-family:仿宋_GB2312">日前，普通高级中学组织志愿报考军队院校的毕业生填写政治考核表，报送所在县（市、区）人武部</span></span><span style="font-family: 仿宋_GB2312;font-size: 21px">，乌鲁木齐考生集中的区县，可视情调整政治考核主考地。</span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">未在学校复读的往届毕业生自行将填好的政治考核表交至户籍所在地县（市、区、兵团师）人武部并同步在报名所在地教育部门提交信息。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px;background:rgb(255,255,255)"><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:楷体_GB2312">（二）报送考核对象名单。</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px">6<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">13</span><span style="font-family:仿宋_GB2312">日前，县（市、区）教育部门将政治考核对象名单报送所在县（市、区、兵团师）人武部。各县（市、区、兵团师）人武部及时对接同级教育部门统计政治考核对象名单。</span><span style="font-family:Times New Roman">6</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">15</span><span style="font-family:仿宋_GB2312">日前，各地州教育部门将政治考核对象名单报送至自治区教育考试院。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px;background:rgb(255,255,255)"><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:楷体_GB2312">（三）组织实施政治考核。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px">6<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">28</span><span style="font-family:仿宋_GB2312">日前，各县（市、区、兵团师）兵役机关按规定程序，会同同级公安机关和教育部门等有关人员，按照</span><span style="font-family:Times New Roman">“</span><span style="font-family:仿宋_GB2312">初步考核</span><span style="font-family:Times New Roman">-</span><span style="font-family:仿宋_GB2312">联合考核</span><span style="font-family:Times New Roman">-</span><span style="font-family:仿宋_GB2312">作出结论</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">的程序完成政治考核，并共同在政治考核表填写政治考核意见、作出政治考核结论。其中，军队院校招收对政治条件有特别要求专业的政治考核对象，还应当按规定组织走访调查。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px;background:rgb(255,255,255)"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">（四）反馈政治考核情况。</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">县（市、区、兵团师）兵役机关于</span>6<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">29</span><span style="font-family:仿宋_GB2312">日前，将政治考核结果电子版</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（准考证号、姓名、性别、身份证号、就读学校、户籍地址、家庭住址、联系方式、考生类型〔文</span>/<span style="font-family:楷体_GB2312">理科〕、体质健康测试成绩、政审结论、备注〔不合格简要情况〕）</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">和政治考核表扫描版报送军区招生工作办公室，</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">并将政治考核结果函告所在地县（市、区）教育考试机构。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px;background:rgb(255,255,255)"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">（五）组织走访调查</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">。</span>7<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">3</span><span style="font-family:仿宋_GB2312">日，新疆军区招生工作办公室根据教育考试院提供的志愿信息，列出需进行走访调查的考生名单并下发兵团军事部和各军分</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">区（警备区）</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">。县（市、区、兵团师）兵役机关会同招生院校依规对相关考生展开走访调查。</span>7<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">8</span><span style="font-family:仿宋_GB2312">日前，将政治考核表</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">报送</span></span><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">军区招生工作办公室。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:黑体">五、军检</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px;background:rgb(255,255,255)"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">考生总分成绩达到新疆普通类计划（文史、理科）本科一批次线以上</span></span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px"><span style="font-family:楷体_GB2312">（外语科目为英语）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">，且政治考核合格的考生，依托自治区</span><span style="font-family:Times New Roman">“</span><span style="font-family:仿宋_GB2312">普通高校招生网上填报志愿系统</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">填报军队院校提前批次志愿。考生志愿填报结束后，军区招生工作办公室根据自治区教育考试院提供的考生志愿，区分男女生和文理科分别划定面试体检控制分数线</span></span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px"><span style="font-family:楷体_GB2312">（女生、文科类以及报考潜艇、潜水、空降、特种作战、空中战勤等特殊岗位按招生计划数的</span>5<span style="font-family:楷体_GB2312">倍划定，其余按招生计划数的</span><span style="font-family:Times New Roman">3</span><span style="font-family:楷体_GB2312">倍划定）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">。各院校（专业）军检线划定后同步在</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:Times New Roman">“</span><span style="font-family:仿宋_GB2312">新疆招生</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">微信公众号和</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">新疆教育考试院官方网站公布，过线考生名单由各地（州、市）教育考试机构通知至考生所在学校。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">军检包括面试和体格检查</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（含心理测试）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">，考生面试合格后领取体检通知单，持体检通知单参加体格检查。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">（一）军检时间及参检人员。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">军检工作定于</span>7<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">6</span><span style="font-family:仿宋_GB2312">日至</span><span style="font-family:Times New Roman">8</span><span style="font-family:仿宋_GB2312">日进行</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（含复检时间）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">，参检对象为总分成绩不低于军检线且政治考核、体质测试成绩均合格的考生。符合军检条件考生，携带身份证、准考证，</span>2<span style="font-family:仿宋_GB2312">张一寸、</span><span style="font-family:Times New Roman">2</span><span style="font-family:仿宋_GB2312">张两寸免冠红底彩色照片、《〈国家学生体质健康标准〉登记卡》按规定时间、地点参加军检，有手术史的考生须携带手术病历。未按规定时间期限参加军队组织的面试、体格检查的，视为放弃报考军队院校。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">（二）军检点设置。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">军检工作由乌鲁木齐警备区，伊犁、喀什、巴音郭楞军分区牵头，依托新疆军区总医院幸福路医疗区，陆军第</span>946<span style="font-family:仿宋_GB2312">、</span><span style="font-family:Times New Roman">947</span><span style="font-family:仿宋_GB2312">、</span><span style="font-family:Times New Roman">951</span><span style="font-family:仿宋_GB2312">医院分批错峰、异地同步组织。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:Times New Roman">①</span><span style="font-family:仿宋_GB2312">乌鲁木齐军检点：</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">在新疆军区总医院幸福路医疗区</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（乌市幸福路</span>556<span style="font-family:楷体_GB2312">号）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">设立，承检乌鲁木齐市、吐鲁番市、哈密市、昌吉州、阿勒泰地区、石河子市等地考生。</span></span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:21px"><span style="font-family:仿宋_GB2312">时间安排：</span>7<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">6</span><span style="font-family:仿宋_GB2312">日，承检乌鲁木齐市方向考</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">生；</span>7<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">日，承检吐鲁番市、昌吉州、哈密市、阿勒泰地区、石河子市方向考生；</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">8</span><span style="font-family:仿宋_GB2312">日，承检复检人员。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:Times New Roman">②</span><span style="font-family:仿宋_GB2312">伊犁军检点：</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">在陆军第</span>946<span style="font-family:仿宋_GB2312">医院设立，承检伊犁州、克拉玛依市、塔城地区、博州、奎屯市等地考生。时间安排：</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">6</span><span style="font-family:仿宋_GB2312">日，承检伊犁州方向考生；</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">日，承检克拉玛依市、塔城地区、博州、奎屯市方向考生；</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">8</span><span style="font-family:仿宋_GB2312">日，承检复检人员。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:Times New Roman">③</span><span style="font-family:仿宋_GB2312">喀什军检点：</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">在陆军第</span>947<span style="font-family:仿宋_GB2312">医院设立，承检喀什地区、和田地区、阿克苏地区、克州等地考生。时间安排：</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">6</span><span style="font-family:仿宋_GB2312">日，承检喀什地区、克州方向考生；</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">日，承检和田地区、阿克苏地区方向考生；</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">8</span><span style="font-family:仿宋_GB2312">日，承检复检人员。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:Times New Roman">④</span><span style="font-family:仿宋_GB2312">巴州军检点：</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">在陆军第</span>951<span style="font-family:仿宋_GB2312">医院设立，承检巴州考生。时间安排：</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">6</span><span style="font-family:仿宋_GB2312">日至</span><span style="font-family:Times New Roman">7</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">8</span><span style="font-family:仿宋_GB2312">日（含复检时间），可结合考生地域分布合理安排。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">各方向具体安排军分区（警备区）可根据实际情况调整。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">（三）组织实施。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">各军检点成立以军分区（警备区）、体检医院、各地（州、市）教育考试机构为主要成员的军检工作领导小组，下设面试组、体检组和监督复议组。</span></span><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">面试组</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">由承检军分区（警备区）选派</span>1<span style="font-family:仿宋_GB2312">名大校</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（或上校）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">军官、</span>2<span style="font-family:仿宋_GB2312">至</span><span style="font-family:Times New Roman">3</span><span style="font-family:仿宋_GB2312">名中校军官和军委训练管理部指定的军队院校人员组成；结合面试工作及时查看、收缴考生的体质测试登记卡。</span></span><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">体检组</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">由体检医院严格按照《关于做好</span>202</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">年军队人员选拔体检工作的通知》</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（军后卫〔</span>202</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px">6</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">〕</span>89</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">号）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">要求，选派专业对口、经验丰富、技术精湛的医生组成，落实主检医生负责制。</span></span><strong><span style="font-family: &#39;Times New Roman&#39;;font-size: 21px"><span style="font-family:仿宋_GB2312">监督复议组</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">由军分区</span></span><span style=";font-family:仿宋_GB2312;font-size:21px">（</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">警备区</span></span><span style=";font-family:仿宋_GB2312;font-size:21px">）</span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">、体检医院、各地（州、市）教育考试机构主管人员，家长代表和纪检人员组成，对军检工作行使监督权。体检现场实行封闭式管理，各地（州、市）教育考试机构负责本地（州、市）考生管理、家长代表选派，各类警戒、引导保障人员由军分区（警备区）、体检医院负责派遣。</span>6<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">30</span><span style="font-family:仿宋_GB2312">日前，各承检单位</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（乌鲁木齐警备区，伊犁、喀什、巴音郭楞军分区）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">将面试、体检工作人员名单</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（姓名、部职别、负责项目）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">报军区备案。</span>7<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">8</span><span style="font-family:仿宋_GB2312">日</span><span style="font-family:Times New Roman">16</span><span style="font-family:仿宋_GB2312">时前，各体检医院将体检人员体检结论汇总表</span></span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px"><span style="font-family:楷体_GB2312">（加盖公章）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">、考生体检表及体检表扫描件报送军区保障部卫生处；各面试单位将考生面试表、体质健康登记卡及汇总表</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（含扫描件）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">报送军区招生工作办公室。考生政治考核、军检情况经军区招生办公室汇总、审核后于</span>7<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">10</span><span style="font-family:仿宋_GB2312">日</span><span style="font-family:Times New Roman">24</span><span style="font-family:仿宋_GB2312">时前报送自治区教育考试院。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">面试工作</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">由乌鲁木齐警备区，伊犁、喀什、巴音郭楞军分区牵头，按照《军队院校招收普通高中毕业生工作办法》等有关规定展开面试，面试结束后将结论告知考生并填写面试登记表，不合格的应说明原因，考生如对结果提出复议申请的，监督复议组应立即组织复议，并将复议结论告知，复议结论为最终结论；院校面试组人员待确定后另行通知，食宿保障由军分区（警备区）协调保障。</span></span><strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">体检工作</span></span></strong><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">由新疆军区总医院幸福路医疗区和陆军第</span>946<span style="font-family:仿宋_GB2312">、</span><span style="font-family:Times New Roman">947</span><span style="font-family:仿宋_GB2312">、</span><span style="font-family:Times New Roman">951</span><span style="font-family:仿宋_GB2312">医院负责，体检标准严格执行《军队选拔军官和文职人员体检标准》</span></span><span style=";font-family:&#39;Times New Roman&#39;;letter-spacing:-1px;font-size:19px"><span style="font-family:楷体_GB2312">（军后卫〔</span>2023<span style="font-family:楷体_GB2312">〕</span><span style="font-family:Times New Roman">116</span><span style="font-family:楷体_GB2312">号）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">，体检结论由主检医师署名负责。各体检项目结论当场告知考生，对当场不能作出结论的血常规、尿液、血清艾滋病毒抗体等项目，应于次日</span>10<span style="font-family:仿宋_GB2312">时前出具体检结果，同步公示前一日所有考生检查结论，并抄送各地（州、市）教育考试机构，向军区招生工作办公室报备。考生如对体检结果有异议，应于收到体检结论当日提出复检申请，并按体检医院规定时限参加复检，复检结论为最终结论。对可通过服用药物或其他治疗手段影响检查结果的项目不予复查，体检结论以初检结论为准</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（也可在严格保密不预先告知不合格体检项目情况下组织一次复查，体检结论以复查结论为准）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">。女性体检对象因生理期导致个别体检项目不符合标准要求的，在时间允许情况下待生理期结束后组织一次复查，体检结论以复检结论为准，时间不允许情况下由承检医疗机构结合临床进行综合判定，不影响服役的可作出体检合格结论。未参加面试、体检或结论为不合格的考生不能参加军队院校招生录取。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">（四）有关事项。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">各军分区（警备区）、承检医院要科学设置军检场地，合理配置引导、监督工作人员，依据各地（州、市）教育考试机构提供的考生名册组织军检。各地（州、市）教育考试机构须提前与军检机构对接参检计划，指派专人带队参检，距离军检地点较远地州，须提前</span>1<span style="font-family:仿宋_GB2312">日组织考生机动赴检。各地（州、市）教育考试机构送检时，要指导考生带齐相关资料。考生体检费用由军队体系医院列为民服务经费核销，往返路费、食宿费等个人自理。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">严禁非工作人员接触军检电子数据信息，严禁更改数据内容，严禁擅自降低军检标准，严禁考生家长及其他非工作人员进入军检现场，严禁打招呼、递条子等干扰军检工作现象，严禁向考生及家长收取军检费用，与考生存在亲属关系的人员不得参与军检工作；发现弄虚作假、冒名顶替、徇私舞弊行为的，要对有关责任人严肃查处，考生取消录取和入学资格，并通报全区。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:黑体">六、投档录取及复审复查</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">军队院校招生实行提前批次投档录取。自治区教育考试院会同新疆军区招生工作办公室于投档录取前一日，对政治考核、面试、体检合格考生进行军检合格标记，并依据考生填报志愿和分数排名，按院校招生计划数量的</span>120%<span style="font-family:仿宋_GB2312">从高分到低分进行投档，投档数量按四舍五入取整。成绩总分相同的考生，依次按照语文、数学、英语单科成绩排名录取。在投档比例范围内，优先录取按国家有关文件执行，如有变动按教育部最新文件执行。除同分考生外，不得超比例投档，未被军队院校录取的考生，继续参加其他普通高等学校录取。军队院校录取数量未完成招生计划的，自治区教育考试院依托官方网站及时公布缺招计划，向政治考核、面试和体格检查结论均合格的考生公开征集</span><span style="font-family:Times New Roman">1</span><span style="font-family:仿宋_GB2312">次志愿，并按照招生计划缺额数量的</span><span style="font-family:Times New Roman">100%</span><span style="font-family:仿宋_GB2312">，按照总分成绩从高到低组织投档。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">录取结束一周内，自治区教育考试院向新疆军区招生工作办公室提供军队院校录取考生报名数据库、录取数据库及录取考生名册</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（加盖教育考试院公章）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">。因特殊原因需调整招生计划的，由军委招生部门商教育部签发《中国人民解放军招生计划调整通知单》，自治区教育考试院据此作出相应调整。军队院校对未通过档案审查的，应当及时退档。教育考试院对退档意见有异议时，双方应当及时协商、稳妥处理；经协商仍存在争议的，由军委训练管理部商教育部研究处理。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">军队院校在新生入校</span>30<span style="font-family:仿宋_GB2312">日内组织入学资格复审、政治考核复查和体格复查。复审复查不合格的，取消入学资格，由自治区教育考试院按照《军队院校生长干部学员分流安置办法》</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（政联〔</span>2014<span style="font-family:楷体_GB2312">〕</span><span style="font-family:Times New Roman">4</span><span style="font-family:楷体_GB2312">号）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">相关规定，会同军队院校和新疆军区招生工作办公室做好退回考生的移交接收工作。复审复查合格，即办理学籍电子注册，享受津贴、医疗、被装等待遇。军区接到入学名单后办理入伍手续，入伍时间统一确定为当年</span>9<span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">1</span><span style="font-family:仿宋_GB2312">日。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:黑体">七、有关要求</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">一是落实阳光招生。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">严格执行高校招生工作</span><span style="font-family:Times New Roman">“</span><span style="font-family:仿宋_GB2312">十严禁</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">、</span><span style="font-family:Times New Roman">“30</span><span style="font-family:仿宋_GB2312">个不得</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">、</span><span style="font-family:Times New Roman">“</span><span style="font-family:仿宋_GB2312">八项基本要求</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">，严格落实高校招生信息</span><span style="font-family:Times New Roman">“</span><span style="font-family:仿宋_GB2312">十公开</span><span style="font-family:Times New Roman">”</span><span style="font-family:仿宋_GB2312">制度，把招生工作纳入舆论、社会、群众和纪律监督，全面实行招生政策、章程、计划、程序、结果、咨询及申诉渠道、重大违规事件处理等信息公开制度机制，以公开透明促进公平公正。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">二是严肃监督监管。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">各级要提高思想认识，压紧压实责任，严格政策执行，切实维护考生利益。军检现场设立举报箱和举报电话，对反映举报的问题，一律登记在案，按程序妥善处理。军地有关部门视情组成联合巡视组，实施全程监督，对查证属实的违规违纪问题，依法依纪严肃处理，倒查追究相关领导责任</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">（新疆军区招生政策咨询、监督举报电话：</span></span><span style=";font-family:楷体_GB2312;font-size:19px"><span style="font-family:Times New Roman">0991-4981102</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:19px"><span style="font-family:楷体_GB2312">；自治区教育考试院招生监督举报电话：</span>0991-8758128<span style="font-family:楷体_GB2312">）</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:楷体_GB2312">三是严密组织实施。</span></span><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312">军地招生部门切实形成联动机制，提前沟通，密切配合，确保衔接流畅。各地（州、市）教育考试机构要加强业务指导，精准掌握报考人员情况，配合做好招生宣传，确保考生按时参审参检。军队机构加强关键环节管控，严禁简化程序、迁就照顾，严格按时限上报政审、军检结果。</span></span></p><p style="text-indent:43px;text-autospace:ideograph-numeric;line-height:39px"><span style=";font-family:&#39;Times New Roman&#39;;font-size:21px"><span style="font-family:仿宋_GB2312"><br/></span></span></p><p><a href="/upload/resources/file/2026/06/23/30102.pdf" target="_blank" filerela="30102" title="附件1.军队院校招收普通高中毕业生面试表.pdf"><img class="fileExt" src="/images/filetype/pdf.gif"/>附件1.军队院校招收普通高中毕业生面试表.pdf</a></p><p><a href="/upload/resources/file/2026/06/23/30103.pdf" target="_blank" filerela="30103" title="附件2.《国家学生体质健康标准》登记卡（高中样表）.pdf"><img class="fileExt" src="/images/filetype/pdf.gif"/>附件2.《国家学生体质健康标准》登记卡（高中样表）.pdf</a></p><p><br/></p></div>       
+
+         </div>
+   
+		
+ 	</div>
+      <!-- 头部 -->
+      
+<div id="footer">
+		<div class="fBox clearfix">
+			<div class="subBox">
+			<!---<div class="img"><img src="${prefix('img/common/f_img01.png')}" alt=""></div>---->
+           <div class="img">
+             <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/31/000/0000/60878970/CA310000000608789700007.js' type='text/javascript'%3E%3C/script%3E"));</script>
+              </div>
+			<ul class="list">
+				<li><a href="https://www.12377.cn/"><img src="/img/common/f_img02.png" alt="">中国互联网举报中心</a></li>
+				<li><a href="https://www.xjwljb.com/home"><img src="/img/common/f_img02.png" alt="">新疆互联网举报中心</a></li>
+			</ul>
+			<ul class="list02">
+				<li>
+                  <select onchange="linkSelected(this)" name="linkSelect">
+                   <option value="http://xjzk.gov.cn/">友情链接</option>
+                   
+                      
+                           <option value="http://www.moe.gov.cn/">中华人民共和国教育部</option>
+                           <option value="http://jyt.xinjiang.gov.cn/">新疆维吾尔自治区教育厅</option>
+                           <option value="http://www.neea.edu.cn/">中国教育考试网</option>
+                           <option value="https://gaokao.chsi.com.cn/">阳光高考</option>
+                           <option value="https://www.bjeea.cn/">北京教育考试院</option>
+                           <option value="http://www.zhaokao.net/">天津市教育招生考试院</option>
+                           <option value="http://www.hebeea.edu.cn/">河北省教育考试院</option>
+                           <option value="http://www.sxkszx.cn/index.html">山西省招生考试管理中心</option>
+                           <option value="https://www.nm.zsks.cn/">内蒙古自治区教育招生考试中心</option>
+                           <option value="https://www.lnzsks.com/">辽宁省高中等教育招生考试委员会办公室</option>
+                           <option value="http://www.jleea.com.cn/">吉林省教育考试院</option>
+                           <option value="https://www.lzk.hl.cn/">黑龙江省招生考试院</option>
+                           <option value="https://www.shmeea.edu.cn/">上海市教育考试院</option>
+                           <option value="https://www.jseea.cn/">江苏省教育考试院</option>
+                           <option value="https://www.zjzs.net/">浙江省教育考试院</option>
+                           <option value="https://www.ahzsks.cn/index.htm">安徽省教育招生考试院</option>
+                           <option value="https://www.eeafj.cn/">福建省教育考试院</option>
+                           <option value="http://www.jxeea.cn/">江西省教育考试院</option>
+                           <option value="https://www.sdzk.cn/">山东省教育招生考试院</option>
+                           <option value="http://www.haeea.cn/">河南省教育考试院</option>
+                           <option value="http://www.hbea.edu.cn/">湖北省教育考试院</option>
+                           <option value="http://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/index.html">湖南省教育考试院</option>
+                           <option value="https://eea.gd.gov.cn/">广东省教育考试院</option>
+                           <option value="https://www.gxeea.cn/">广西壮族自治区招生考试院</option>
+                           <option value="http://ea.hainan.gov.cn/">海南省考试局</option>
+                           <option value="https://www.cqksy.cn/site/index.html">重庆市教育考试院</option>
+                           <option value="https://www.sceea.cn/">四川省教育考试院</option>
+                           <option value="http://zsksy.guizhou.gov.cn/">贵州省招生考试院</option>
+                           <option value="https://www.ynzs.cn/">云南省招生考试院</option>
+                           <option value="http://zsks.edu.xizang.gov.cn/">西藏自治区教育考试院</option>
+                           <option value="http://www.sneea.cn/">陕西省教育考试院</option>
+                           <option value="https://www.ganseea.cn/">甘肃省教育考试院</option>
+                           <option value="http://www.qhjyks.com/">青海省教育招生考试院</option>
+                           <option value="https://www.nxjyks.cn/">宁夏回族自治区教育考试院</option>
+                    
+                  </select>
+              </li>
+				<li>
+                  <select onchange="linkSelected(this)">
+                    <option value="#">疆内高校</option>
+                    <!--
+                    <cms:link code="syxljngx" >
+                      <z:list>
+                           <option value="${Link.URL}">${Link.Name}</option>
+                      </z:list>
+                    </cms:link>
+					-->
+                           <option value="https://www.xju.edu.cn/">新疆大学</option>
+                           <option value="https://www.taru.edu.cn/ ">塔里木大学 </option>
+                    	   <option value=" https://www.xjau.edu.cn/"> 新疆农业大学</option>
+                    	   <option value="https://www.shzu.edu.cn/ "> 石河子大学</option>
+                    	   <option value=" https://www.xjmu.edu.cn/">新疆医科大学 </option>
+                          <option value="https://www.xjnu.edu.cn/ ">新疆师范大学 </option>
+                          <option value=" https://www.ksu.edu.cn/">喀什大学 </option>
+                          <option value="https://www.ylnu.edu.cn/ ">伊犁师范大学 </option>
+                          <option value="https://www.htnc.edu.cn/ ">和田师范专科学校 </option>
+                          <option value=" https://www.xjufe.edu.cn/"> 新疆财经大学</option>
+                          <option value="https://www.xjart.edu.cn/ ">新疆艺术学院 </option>
+                          <option value=" https://www.xjie.edu.cn/">新疆工程学院 </option>
+                          <option value="https://www.xjnzy.edu.cn/ ">新疆农业职业技术学院 </option>
+                          <option value="http://www.cjc.edu.cn/ ">昌吉学院 </option>
+                          <option value="http://www.uvu.edu.cn/ ">乌鲁木齐职业大学 </option>
+                          <option value=" https://www.kzjsxy.edu.cn/">克拉玛依职业技术学院 </option>
+                          <option value="https://www.xjqg.edu.cn/xjqg/xjqg1/index.php "> 新疆轻工职业技术学院</option>
+                          <option value=" https://www.xjpcedu.cn/">新疆警察学院 </option>
+                          <option value=" http://www.cjpt.edu.cn/">昌吉职业技术学院 </option>
+                          <option value=" http://www.akszy.com/">阿克苏职业技术学院 </option>
+                          <option value="http://www.xjbyxy.cn/ "> 巴音郭楞职业技术学院</option>
+                          <option value="https://www.xjistedu.cn/ ">新疆理工学院 </option>
+                          <option value="https://www.xjsmc.edu.cn/ ">新疆第二医学院 </option>
+                          <option value=" http://www.xjust.edu.cn/">新疆科技学院 </option>
+                          <option value=" http://www.xjjsxy.net/">新疆建设职业技术学院 </option>
+                          <option value=" http://www.xjzfu.edu.cn/"> 新疆政法学院</option>
+                          <option value="http://www.xjjtedu.com/index.jsp ">新疆交通职业技术学院 </option>
+                          <option value=" https://www.shzv.edu.cn/">新疆石河子职业技术学院 </option>
+                          <option value="https://www.xjvu.edu.cn/ "> 新疆职业大学</option>
+                          <option value=" http://www.xjyyedu.cn/">新疆应用职业技术学院 </option>
+                          <option value="https://www.xjei.edu.cn/ ">新疆师范高等专科学校 </option>
+                          <option value="https://btc.edu.cn/ "> 新疆生产建设兵团兴新职业技术学院</option>
+                          <option value=" https://www.hmzyedu.cn/home/index.html">哈密职业技术学院 </option>
+                          <option value="http://www.tlfzj.com/ "> 吐鲁番职业技术学院</option>
+                          <option value=" http://www.betltc.cn/">博尔塔拉职业技术学院 </option>
+                          <option value="https://www.htpt.edu.cn/ "> 和田职业技术学院</option>
+                          <option value=" https://tmgxy.edu.cn/index.htm">铁门关职业技术学院 </option>
+                          <option value=" https://www.shzvce.cn/">石河子工程职业技术学院 </option>
+                          <option value=" http://www.kzvtc.edu.cn/">克孜勒苏职业技术学院 </option>
+                          <option value="https://www.kxedu.net/ "> 新疆科信职业技术学院</option>
+                          <option value="https://www.altzyxy.com/ ">阿勒泰职业技术学院 </option> 
+                  </select>
+              </li>
+			</ul>
+			</div>
+		</div>
+		<div class="fInner">
+			<div class="subInner clearfix">
+				<p class="txt">
+                  <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank"   style="text-decoration:none;color:#fff;">新ICP备14003112号</a> 　
+                  <br class="sp">
+                  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=65010302000976" style="text-decoration:none;color:#fff;">新公网安备 65010302000976号</a>
+				</p>
+                  <p class="txt02">
+                    <!----
+                    <cms:catalog alias="zdxg_wzsm">
+                    <a href="${Catalog.Link}">网站声明</a>
+                    </cms:catalog>
+					--->
+                 
+                    <a href="https://www.xjzk.gov.cn/c/2023-10-31/492193.shtml">网站声明</a>
+                   
+					丨
+                    <a href="/lxwm/">联系我们</a>丨新疆维吾尔自治区教育考试院主办丨地址：新疆乌鲁木齐市南昌路456号（邮编：830091）</p>
+			</div>
+		</div>
+	</div>
+      <!-- /头部 -->
+    </div>
+
+<script src="https://www.xjzk.gov.cn/stat/front/stat.js" type="text/javascript"></script>
+<script>
+if(window._zcms_stat)_zcms_stat("SiteID=122&CatalogInnerCode=001323000006000002&Type=Article&LeafID=495376&Dest=https://www.xjzk.gov.cn/front/stat/dealer");
+</script>
+<!-- App=ZCMS(ZCMS内容管理系统) 3.2.0,CostTime=12,PublishDate=2026-06-23 19:32:00 -->
+
+<script src="https://www.xjzk.gov.cn/recommend/js/recommendstat.js" type="text/javascript"></script>
+<script>
+if(window._zcms_recommendstat)_zcms_recommendstat("SiteID=122&ContentID=495376&RecommendType=Content&Dest=https://www.xjzk.gov.cn/front/recommends/dealer");
+</script>
+</body>
+</html>

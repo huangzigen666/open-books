@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄昊 · 开源书籍</title>
+<style>
+  :root {
+    --bg: #f4eee2;
+    --rust: #b3541e;
+    --ink: #21252b;
+    --muted: #6f665a;
+    --line: #d8cfc4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif;
+    min-height: 100vh;
+    padding: 48px 24px 80px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  header { margin-bottom: 48px; }
+  header h1 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: var(--muted);
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+  header h1 span { color: var(--rust); }
+  .divider {
+    width: 60px; height: 2px;
+    background: var(--rust); opacity: 0.55;
+    margin-bottom: 28px;
+  }
+  header p { font-size: 14px; color: var(--muted); line-height: 1.8; }
+  header a { color: var(--rust); text-decoration: none; }
+  .books { display: flex; flex-direction: column; gap: 20px; }
+  .book {
+    background: #fffcf7;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 24px 28px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .book:hover {
+    border-color: var(--rust);
+    box-shadow: 0 2px 12px rgba(179,84,30,0.10);
+  }
+  .book-tag {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: var(--rust);
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .book-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .book-sub {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 14px;
+    line-height: 1.6;
+  }
+  .book-status {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .book-status .done { color: #4a8c5c; font-weight: 500; }
+  .book-status .wip  { color: var(--rust); }
+  footer {
+    margin-top: 64px;
+    font-size: 12px;
+    color: var(--muted);
+    text-align: center;
+    line-height: 2;
+  }
+  footer a { color: var(--rust); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>黄昊 · <span>开源书籍</span></h1>
+    <div class="divider"></div>
+    <p>三本书，按学生成长时间线覆盖「平时怎么学 → 三年怎么规划 → 出分后怎么填志愿」。<br>
+    方法层完全公开；个性化诊断与陪跑指向付费服务，不在书内闭合。</p>
+  </header>
+
+  <div class="books">
+    <a class="book" href="./问分递归学习方法论/dist/index.html">
+      <div class="book-tag">问分 · 平时学习</div>
+      <div class="book-title">别刷题，去调试</div>
+      <div class="book-sub">把学习当成一台你能自己调试的计算机——一套平时就能用的递归学习方法</div>
+      <div class="book-status"><span class="done">✓ 全书成稿</span> · 前言 + 第 1–11 章 + 附录 A–L</div>
+    </a>
+
+    <a class="book" href="./新疆高中三年升学规划书/dist/index.html">
+      <div class="book-tag">问路 · 三年规划</div>
+      <div class="book-title">别等出分才开始</div>
+      <div class="book-sub">高中三年的主动升学规划——从初升高到高三出分前的全链路自查手册</div>
+      <div class="book-status"><span class="done">✓ 全书成稿</span> · 14 章 + 13 附录</div>
+    </a>
+
+    <a class="book" href="./新疆家长志愿风险识别手册/dist/index.html">
+      <div class="book-tag">问路 · 志愿填报</div>
+      <div class="book-title">别把孩子的分数浪费在志愿表里</div>
+      <div class="book-sub">出分后到填报这几天——逐条识别志愿填报的高频风险</div>
+      <div class="book-status"><span class="wip">MVP 初稿</span> · 持续更新中</div>
+    </a>
+  </div>
+
+  <footer>
+    微信 <strong>AIHuangFuture</strong> &nbsp;|&nbsp;
+    <a href="https://huanghao.ink" target="_blank">huanghao.ink</a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/huangzigen666/open-books" target="_blank">GitHub 仓库</a>
+  </footer>
+</div>
+</body>
+</html>

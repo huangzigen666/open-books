@@ -1,0 +1,25 @@
+<svg width="680" height="940" viewBox="0 0 680 940" xmlns="http://www.w3.org/2000/svg" role="img" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Source Han Sans SC',sans-serif">
+<title>《别刷题，去调试》书籍封面 · 浅色方向</title>
+<desc>暖米白封面：书名「别刷题」里的「刷题」被铁锈橙删除线划掉，「去调试」作为主标题立起来并缀一个终端光标；顶部署名问分 · 学习方法论，下方为副标题、作者黄昊 与 huanghao.ink；背景有淡淡的递归嵌套方框作为肌理。</desc>
+<rect x="0" y="0" width="680" height="940" fill="#f4eee2"/>
+<g fill="none" stroke="#b3541e" stroke-opacity="0.09" stroke-width="1">
+<rect x="70" y="150" width="540" height="540" rx="18"/>
+<rect x="135" y="215" width="410" height="410" rx="16"/>
+<rect x="200" y="280" width="280" height="280" rx="14"/>
+<rect x="265" y="345" width="150" height="150" rx="12"/>
+</g>
+<rect x="30" y="30" width="620" height="880" rx="6" fill="none" stroke="#b3541e" stroke-opacity="0.35" stroke-width="1"/>
+<text x="340" y="118" text-anchor="middle" font-size="21" letter-spacing="3" fill="#8c8474">问分 · 学习方法论</text>
+<line x1="280" y1="144" x2="400" y2="144" stroke="#b3541e" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"/>
+<text x="241" y="402" text-anchor="middle" font-size="66" font-weight="500" fill="#21252b">别</text>
+<text x="340" y="402" text-anchor="middle" font-size="66" font-weight="500" fill="#21252b">刷题</text>
+<text x="439" y="402" text-anchor="middle" font-size="66" font-weight="500" fill="#21252b">，</text>
+<line x1="272" y1="379" x2="408" y2="379" stroke="#b3541e" stroke-width="6" stroke-linecap="round"/>
+<text x="330" y="550" text-anchor="middle" font-size="108" font-weight="700" fill="#b3541e">去调试</text>
+<rect x="503" y="472" width="22" height="86" fill="#b3541e" fill-opacity="0.9"/>
+<text x="340" y="664" text-anchor="middle" font-size="24" fill="#6f665a">把学习当成一台你能自己调试的计算机</text>
+<text x="340" y="702" text-anchor="middle" font-size="24" fill="#6f665a">——一套平时就能用的递归学习方法</text>
+<line x1="305" y1="775" x2="375" y2="775" stroke="#b3541e" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round"/>
+<text x="340" y="844" text-anchor="middle" font-size="30" font-weight="500" fill="#21252b">黄昊</text>
+<text x="340" y="882" text-anchor="middle" font-size="17" letter-spacing="1" fill="#8c8474">问分　·　huanghao.ink</text>
+</svg>
