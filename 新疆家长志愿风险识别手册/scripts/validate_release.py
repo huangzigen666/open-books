@@ -199,7 +199,7 @@ def check_text_patterns(findings: list[Finding]) -> None:
 def check_consultation_config(findings: list[Finding]) -> None:
     path = ROOT / "config/consultation_entry.json"
     try:
-        config = json.loads(path.read_text(encoding="utf-8"))
+        config = json.loads(path.read_text(encoding="utf-8-sig"))
     except Exception as exc:
         findings.append(Finding("FAIL", "consultation-config", f"配置无法解析：{exc}", rel(path)))
         return

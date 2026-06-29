@@ -26,8 +26,8 @@
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录B_官方证据清单.md",
-        "Length":  8657,
-        "LastWriteTime":  "\/Date(1782364049115)\/"
+        "Length":  8708,
+        "LastWriteTime":  "\/Date(1782764531375)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录C_联系与服务边界.md",
@@ -45,14 +45,34 @@
         "LastWriteTime":  "\/Date(1782333242727)\/"
     },
     {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\appendix\\附录F_脱敏真实案例.md",
+        "Length":  2720,
+        "LastWriteTime":  "\/Date(1782764515024)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\assets\\avatar.jpg",
+        "Length":  2032794,
+        "LastWriteTime":  "\/Date(1782625046776)\/"
+    },
+    {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\assets\\contact-card.svg",
-        "Length":  2157,
-        "LastWriteTime":  "\/Date(1782364101130)\/"
+        "Length":  1914,
+        "LastWriteTime":  "\/Date(1782768281352)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\assets\\cover.svg",
-        "Length":  1788,
-        "LastWriteTime":  "\/Date(1782364101130)\/"
+        "Length":  4261,
+        "LastWriteTime":  "\/Date(1782768281351)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\assets\\wechat-qr.png",
+        "Length":  166412,
+        "LastWriteTime":  "\/Date(1782625038454)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\assets\\微信图片_20260611151933_192_6.jpg",
+        "Length":  176567,
+        "LastWriteTime":  "\/Date(1781162427745)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\book.md",
@@ -61,13 +81,13 @@
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\book_full.md",
-        "Length":  91602,
-        "LastWriteTime":  "\/Date(1782364101114)\/"
+        "Length":  94386,
+        "LastWriteTime":  "\/Date(1782768281340)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\README.md",
-        "Length":  684,
-        "LastWriteTime":  "\/Date(1782333242732)\/"
+        "Length":  793,
+        "LastWriteTime":  "\/Date(1782764252347)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\案例_低分段路径选择_合成.md",
@@ -78,6 +98,11 @@
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\案例_调剂后悔风险_合成.md",
         "Length":  1761,
         "LastWriteTime":  "\/Date(1782330131215)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\案例_铁路相关专业调剂风险_脱敏.md",
+        "Length":  2610,
+        "LastWriteTime":  "\/Date(1782764498413)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\cases\\案例_专项资格误判_合成.md",
@@ -141,8 +166,8 @@
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\config\\consultation_entry.json",
-        "Length":  556,
-        "LastWriteTime":  "\/Date(1782363620877)\/"
+        "Length":  619,
+        "LastWriteTime":  "\/Date(1782763004912)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\CONTRIBUTING.md",
@@ -150,24 +175,29 @@
         "LastWriteTime":  "\/Date(1782330414301)\/"
     },
     {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\DESIGN_NOTES.md",
+        "Length":  1280,
+        "LastWriteTime":  "\/Date(1782768127123)\/"
+    },
+    {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\book.pdf",
-        "Length":  2363660,
-        "LastWriteTime":  "\/Date(1782364125035)\/"
+        "Length":  3619380,
+        "LastWriteTime":  "\/Date(1782768290725)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\contact.html",
-        "Length":  7022,
-        "LastWriteTime":  "\/Date(1782364101130)\/"
+        "Length":  11118,
+        "LastWriteTime":  "\/Date(1782768281353)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\index.html",
-        "Length":  137052,
-        "LastWriteTime":  "\/Date(1782364101129)\/"
+        "Length":  147999,
+        "LastWriteTime":  "\/Date(1782768281350)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\dist\\README.md",
         "Length":  275,
-        "LastWriteTime":  "\/Date(1782364101130)\/"
+        "LastWriteTime":  "\/Date(1782768281353)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\official\\cfri_2026_admission_charter.html",
@@ -320,9 +350,34 @@
         "LastWriteTime":  "\/Date(1782331827288)\/"
     },
     {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\system\\2026_real_score_rank_redacted.jpg",
+        "Length":  271636,
+        "LastWriteTime":  "\/Date(1782763967173)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\system\\2026_real_score_rank_redacted_note.md",
+        "Length":  770,
+        "LastWriteTime":  "\/Date(1782763967203)\/"
+    },
+    {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\system\\README.md",
         "Length":  875,
         "LastWriteTime":  "\/Date(1782333242735)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\system\\中国消防救援学院_理工计划_下卷p374.png",
+        "Length":  535466,
+        "LastWriteTime":  "\/Date(1782763696300)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\system\\中国消防救援学院_文史计划_下卷p192.png",
+        "Length":  391828,
+        "LastWriteTime":  "\/Date(1782763696199)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\evidence\\system\\中国消防救援学院_招生计划截图说明.md",
+        "Length":  868,
+        "LastWriteTime":  "\/Date(1782763896608)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\examples\\官方数据入口核验记录.md",
@@ -335,24 +390,29 @@
         "LastWriteTime":  "\/Date(1782331914083)\/"
     },
     {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\FINAL_RELEASE_REPORT.md",
+        "Length":  2506,
+        "LastWriteTime":  "\/Date(1782768331423)\/"
+    },
+    {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\LICENSE.md",
         "Length":  551,
         "LastWriteTime":  "\/Date(1782329436998)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\manifest.json",
-        "Length":  17355,
-        "LastWriteTime":  "\/Date(1782364139482)\/"
+        "Length":  20773,
+        "LastWriteTime":  "\/Date(1782768139818)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\NEXT_ACTIONS.md",
-        "Length":  3317,
-        "LastWriteTime":  "\/Date(1782416244737)\/"
+        "Length":  1119,
+        "LastWriteTime":  "\/Date(1782764718480)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\PUBLICATION_NOTES.md",
-        "Length":  4300,
-        "LastWriteTime":  "\/Date(1782416244735)\/"
+        "Length":  2676,
+        "LastWriteTime":  "\/Date(1782765390706)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\README.md",
@@ -361,8 +421,8 @@
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\RELEASE_CHECKLIST.md",
-        "Length":  2297,
-        "LastWriteTime":  "\/Date(1782416244736)\/"
+        "Length":  1988,
+        "LastWriteTime":  "\/Date(1782765399337)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\research\\官方依据_2026-06-25.md",
@@ -370,14 +430,24 @@
         "LastWriteTime":  "\/Date(1782333004091)\/"
     },
     {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\REVIEW_DECISIONS.md",
+        "Length":  919,
+        "LastWriteTime":  "\/Date(1782764766967)\/"
+    },
+    {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\scripts\\build_publish.py",
-        "Length":  22011,
-        "LastWriteTime":  "\/Date(1782363686024)\/"
+        "Length":  29970,
+        "LastWriteTime":  "\/Date(1782768272744)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\scripts\\export_pdf.ps1",
+        "Length":  1421,
+        "LastWriteTime":  "\/Date(1782765383441)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\scripts\\validate_release.py",
-        "Length":  11423,
-        "LastWriteTime":  "\/Date(1782416215163)\/"
+        "Length":  11427,
+        "LastWriteTime":  "\/Date(1782763044941)\/"
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\templates\\案例脱敏处理清单.md",
@@ -406,7 +476,12 @@
     },
     {
         "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\VALIDATION_REPORT.md",
-        "Length":  2523,
-        "LastWriteTime":  "\/Date(1782416252669)\/"
+        "Length":  2052,
+        "LastWriteTime":  "\/Date(1782768331581)\/"
+    },
+    {
+        "FullName":  "F:\\开源书籍\\新疆家长志愿风险识别手册\\发布分发文案.md",
+        "Length":  3751,
+        "LastWriteTime":  "\/Date(1782764756668)\/"
     }
 ]

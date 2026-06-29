@@ -7,93 +7,161 @@
   <meta name="description" content="新疆家长高考志愿风险识别手册，作者 黄昊 Rex / 问路。">
   <style>
 :root {
-  --ink: #1D2939;
-  --muted: #667085;
-  --line: #D0D5DD;
-  --soft-line: #EAECF0;
-  --paper: #FFFFFF;
-  --warm: #F7F2E9;
-  --accent: #E0892F;
-  --danger-bg: #FEF3F2;
-  --note-bg: #FFFAEB;
-  --ok-bg: #ECFDF3;
+  --ink: #16202E;
+  --muted: #66737F;
+  --line: #C9D1D9;
+  --soft-line: #E6E2D8;
+  --paper: #FFFDF7;
+  --canvas: #EFE7D7;
+  --warm: #F4E7CF;
+  --accent: #A33A32;
+  --accent-2: #B08A54;
+  --navy: #111B29;
+  --sage: #667866;
+  --danger-bg: #FFF0E7;
+  --note-bg: #FFF7E3;
+  --ok-bg: #ECF6ED;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 12% 8%, rgba(224,137,47,.18), transparent 26rem),
-    linear-gradient(135deg, #fbf7ef 0%, #fff 46%, #f5f7f8 100%);
+    radial-gradient(circle at 10% 12%, rgba(163,58,50,.12), transparent 28rem),
+    radial-gradient(circle at 88% 8%, rgba(17,27,41,.10), transparent 32rem),
+    linear-gradient(135deg, #F1E7D5 0%, #FFFDF7 44%, #F7F3EA 100%);
   color: var(--ink);
-  font-family: "Source Han Sans SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
-  line-height: 1.72;
+  font-family: "Source Han Serif SC", "Noto Serif SC", "SimSun", "Songti SC", serif;
+  line-height: 1.78;
+  font-size: 16px;
 }
-a { color: #9A5B1E; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-.layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); min-height: 100vh; }
+a { color: #82312A; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.layout { display: grid; grid-template-columns: 304px minmax(0, 1fr); min-height: 100vh; }
 .sidebar {
   position: sticky; top: 0; height: 100vh; overflow: auto;
-  padding: 28px 22px; border-right: 1px solid var(--soft-line);
-  background: rgba(255,255,255,.82); backdrop-filter: blur(12px);
-}
-.sidebar .brand { font-weight: 700; letter-spacing: .04em; margin-bottom: 4px; }
-.sidebar .sub { color: var(--muted); font-size: 13px; line-height: 1.5; margin-bottom: 22px; }
-.sidebar nav { display: grid; gap: 6px; }
-.sidebar nav a { display: block; padding: 7px 8px; border-radius: 9px; color: var(--ink); text-decoration: none; font-size: 13px; line-height: 1.35; }
-.sidebar nav a:hover { background: var(--warm); }
-.toc-level-1 { font-weight: 700; }
-.toc-level-2 { padding-left: 16px !important; color: var(--muted) !important; }
-main { max-width: 940px; width: 100%; margin: 0 auto; padding: 48px 42px 96px; }
-.cover {
-  min-height: 72vh; display: grid; align-content: center; gap: 18px;
-  padding: 56px; margin-bottom: 46px; border: 1px solid var(--line); border-radius: 28px;
+  padding: 30px 24px; border-right: 1px solid rgba(22,32,46,.12);
   background:
-    linear-gradient(155deg, rgba(29,41,57,.95), rgba(29,41,57,.88)),
-    radial-gradient(circle at 88% 20%, rgba(224,137,47,.35), transparent 20rem);
-  color: white; position: relative; overflow: hidden;
+    linear-gradient(180deg, rgba(255,253,247,.94), rgba(244,231,207,.88)),
+    var(--paper);
+  backdrop-filter: blur(14px);
+}
+.sidebar .brand {
+  font-family: "Microsoft YaHei", "DengXian", sans-serif;
+  font-weight: 900; letter-spacing: .02em; margin-bottom: 8px; line-height: 1.25;
+}
+.sidebar .sub { color: var(--muted); font-size: 12px; line-height: 1.65; margin-bottom: 26px; }
+.sidebar nav { display: grid; gap: 5px; }
+.sidebar nav a {
+  display: block; padding: 8px 10px; border-radius: 999px; color: var(--ink);
+  text-decoration: none; font-size: 13px; line-height: 1.35;
+  font-family: "Microsoft YaHei", "DengXian", sans-serif;
+}
+.sidebar nav a:hover { background: #EADBC2; }
+.toc-level-1 { font-weight: 800; }
+.toc-level-2 { padding-left: 18px !important; color: var(--muted) !important; border-radius: 12px !important; }
+main { max-width: 980px; width: 100%; margin: 0 auto; padding: 52px 48px 104px; }
+.cover {
+  min-height: 78vh; display: grid; align-content: stretch;
+  padding: 0; margin-bottom: 54px; border-radius: 34px;
+  background:
+    linear-gradient(90deg, rgba(163,58,50,.10), transparent 14rem),
+    radial-gradient(circle at 84% 18%, rgba(17,27,41,.10), transparent 18rem),
+    linear-gradient(145deg, #FBF7EF 0%, #FFFDF8 56%, #EEE3D2 100%);
+  color: var(--ink); position: relative; overflow: hidden;
+  border: 1px solid #CFC1AD;
+  box-shadow: 0 24px 80px rgba(22,32,46,.14);
+}
+.cover::before {
+  content: ""; position: absolute; right: -28px; top: 96px; width: 46%; height: 68%;
+  border: 2px solid rgba(22,32,46,.18); border-radius: 18px; transform: rotate(-2deg);
+  background:
+    linear-gradient(90deg, transparent 0 32%, rgba(22,32,46,.10) 32% calc(32% + 1px), transparent calc(32% + 1px)),
+    repeating-linear-gradient(0deg, rgba(22,32,46,.10) 0 1px, transparent 1px 72px),
+    rgba(255,255,255,.52);
+  pointer-events: none;
 }
 .cover::after {
-  content: ""; position: absolute; right: -70px; bottom: -90px; width: 260px; height: 260px;
-  border: 34px solid rgba(224,137,47,.45); border-radius: 50%;
+  content: "风险识别"; position: absolute; right: 86px; top: 214px;
+  padding: 12px 26px; border: 4px solid #A33A32; color: #A33A32; border-radius: 10px;
+  font-family: "Microsoft YaHei", "DengXian", sans-serif; font-size: 34px; font-weight: 900;
+  letter-spacing: .14em; transform: rotate(-8deg); opacity: .88;
 }
-.cover .kicker { color: #F7D4A8; font-weight: 600; letter-spacing: .18em; }
-.cover h1 { font-size: clamp(42px, 8vw, 78px); line-height: 1.05; margin: 0; letter-spacing: -.04em; }
-.cover .subtitle { font-size: clamp(18px, 3vw, 28px); color: #F7F2E9; }
-.cover .meta { color: rgba(255,255,255,.72); margin-top: 18px; }
-h1, h2, h3, h4 { line-height: 1.25; letter-spacing: -.02em; }
-h1 { font-size: 42px; margin: 56px 0 24px; padding-top: 16px; }
-h2 { font-size: 27px; margin: 44px 0 14px; padding-left: 14px; border-left: 5px solid var(--accent); }
-h3 { font-size: 21px; margin: 32px 0 10px; }
-p { margin: 13px 0; }
-blockquote { margin: 22px 0; padding: 18px 22px; background: var(--note-bg); border-left: 5px solid var(--accent); border-radius: 12px; }
-ul { padding-left: 1.25rem; }
-li { margin: 6px 0; }
-hr { border: 0; border-top: 1px solid var(--line); margin: 54px 0; }
-pre { background: #101828; color: #F8FAFC; padding: 18px; border-radius: 16px; overflow: auto; font-size: 13px; line-height: 1.55; }
+.cover-inner { position: relative; z-index: 1; min-height: 78vh; padding: 68px 68px 56px; display: grid; grid-template-rows: auto 1fr auto; }
+.cover .kicker {
+  color: #4B5A6A; font-family: "Microsoft YaHei", "DengXian", sans-serif;
+  font-weight: 800; letter-spacing: .26em; font-size: 14px; text-transform: uppercase;
+}
+.cover-title { align-self: center; max-width: 700px; }
+.cover h1 {
+  font-family: "Microsoft YaHei", "DengXian", sans-serif;
+  font-size: clamp(52px, 8.6vw, 96px); line-height: .98; margin: 0;
+  letter-spacing: -.07em; font-weight: 900; color: #111B29;
+}
+.cover .subtitle {
+  margin-top: 22px; max-width: 600px; font-size: clamp(19px, 2.6vw, 30px);
+  color: #2C3440; font-family: "Source Han Serif SC", "Noto Serif SC", "SimSun", serif;
+  font-weight: 700;
+}
+.cover-rules { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 36px; max-width: 720px; }
+.cover-rules span {
+  border: 1px solid #A9B2BE; color: #1F2A38; border-radius: 999px;
+  padding: 8px 10px; text-align: center; font-size: 13px; font-weight: 800;
+  background: rgba(255,255,255,.58); font-family: "Microsoft YaHei", "DengXian", sans-serif;
+}
+.cover .meta {
+  color: #586371; font-family: "Microsoft YaHei", "DengXian", sans-serif;
+  display: flex; justify-content: space-between; gap: 18px; border-top: 2px solid rgba(22,32,46,.12); padding-top: 20px;
+}
+h1, h2, h3, h4 {
+  font-family: "Microsoft YaHei", "DengXian", sans-serif;
+  line-height: 1.22; letter-spacing: -.025em;
+}
+h1 {
+  font-size: 42px; margin: 64px 0 26px; padding-top: 18px;
+  border-top: 6px solid var(--navy);
+}
+h2 {
+  font-size: 27px; margin: 46px 0 16px; padding-left: 16px;
+  border-left: 6px solid var(--accent); position: relative;
+}
+h3 { font-size: 21px; margin: 34px 0 10px; color: #233249; }
+p { margin: 13px 0; text-align: justify; }
+blockquote {
+  margin: 24px 0; padding: 18px 22px; background: linear-gradient(90deg, #FFF6DF, #FFFDF7);
+  border-left: 6px solid var(--accent-2); border-radius: 14px; font-weight: 700;
+}
+ul { padding-left: 1.3rem; }
+li { margin: 7px 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 58px 0; }
+pre { background: #111B29; color: #F8FAFC; padding: 18px; border-radius: 16px; overflow: auto; font-size: 13px; line-height: 1.55; }
 code { font-family: "Cascadia Code", Consolas, monospace; }
-p code, li code { background: #F2F4F7; color: #344054; padding: 1px 5px; border-radius: 5px; }
-.table-wrap { overflow-x: auto; margin: 22px 0; border: 1px solid var(--line); border-radius: 16px; background: white; }
-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-th, td { padding: 10px 12px; border-bottom: 1px solid var(--soft-line); vertical-align: top; }
-th { text-align: left; background: #F9FAFB; font-weight: 700; }
+p code, li code { background: #EFE7D7; color: #344054; padding: 1px 5px; border-radius: 5px; }
+.table-wrap {
+  overflow-x: auto; margin: 24px 0; border: 1px solid #D8CFBF; border-radius: 18px;
+  background: var(--paper); box-shadow: 0 10px 30px rgba(16,24,40,.05);
+}
+table { width: 100%; border-collapse: collapse; font-size: 14px; font-family: "Microsoft YaHei", "DengXian", sans-serif; }
+th, td { padding: 12px 14px; border-bottom: 1px solid var(--soft-line); vertical-align: top; }
+th { text-align: left; background: #F0E4CF; font-weight: 900; color: #26364A; }
+td:first-child { font-weight: 800; color: #26364A; width: 22%; }
 tr:last-child td { border-bottom: 0; }
 .contact-panel {
-  margin: 72px 0 0; padding: 34px; border: 1px solid var(--line); border-radius: 24px;
+  margin: 78px 0 0; padding: 40px; border: 1px solid #D8CFBF; border-radius: 30px;
   background:
-    radial-gradient(circle at 90% 0%, rgba(224,137,47,.18), transparent 18rem),
-    #fff;
+    radial-gradient(circle at 90% 0%, rgba(198,106,43,.18), transparent 18rem),
+    linear-gradient(140deg, #FFFDF7, #F6ECDB);
 }
 .contact-panel .status {
   display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700;
-  background: var(--note-bg); color: #9A5B1E; margin-bottom: 10px;
+  background: #F0E4CF; color: #91451C; margin-bottom: 10px; font-family: "Microsoft YaHei", "DengXian", sans-serif;
 }
 .contact-panel h2 { margin-top: 0; }
-.contact-grid { display: grid; grid-template-columns: 1fr 190px; gap: 24px; align-items: center; }
+.contact-grid { display: grid; grid-template-columns: 1fr 210px; gap: 28px; align-items: center; }
 .contact-list { display: grid; gap: 8px; margin-top: 16px; }
-.contact-list div { padding: 9px 11px; background: #F9FAFB; border-radius: 10px; }
+.contact-list div { padding: 10px 12px; background: rgba(255,255,255,.72); border-radius: 12px; font-family: "Microsoft YaHei", "DengXian", sans-serif; }
 .qr-box {
-  width: 190px; height: 190px; display: grid; place-items: center; text-align: center;
-  border: 2px dashed var(--line); border-radius: 18px; color: var(--muted); background: #F9FAFB;
+  width: 210px; height: 210px; display: grid; place-items: center; text-align: center;
+  border: 2px dashed #CDBB9E; border-radius: 22px; color: var(--muted); background: #FFFDF7;
 }
 .footer { margin-top: 72px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 22px; }
 .print-actions { position: fixed; right: 20px; bottom: 20px; display: flex; gap: 10px; z-index: 10; }
@@ -102,19 +170,42 @@ tr:last-child td { border-bottom: 0; }
   .layout { grid-template-columns: 1fr; }
   .sidebar { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--soft-line); }
   main { padding: 28px 18px 72px; }
-  .cover { padding: 32px 24px; min-height: 58vh; border-radius: 22px; }
+  .cover { min-height: 62vh; border-radius: 24px; }
+  .cover-inner { min-height: 62vh; padding: 38px 28px; }
+  .cover-rules { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cover .meta { display: block; }
   .contact-grid { grid-template-columns: 1fr; }
 }
 @media print {
-  body { background: white; }
+  @page { size: A4; margin: 12mm 13mm; }
+  body { background: white; font-size: 14.4px; line-height: 1.62; }
   .layout { display: block; }
   .sidebar, .print-actions { display: none; }
   main { max-width: none; padding: 0; }
-  .cover { break-after: page; min-height: 92vh; border-radius: 0; }
+  .cover { break-after: page; min-height: 258mm; border-radius: 0; box-shadow: none; }
+  .cover::before { right: -30px; top: 88px; height: 68%; border-radius: 0; }
+  .cover-inner { min-height: 258mm; padding: 52px 50px 42px; }
+  .cover h1 { font-size: 68px; break-before: auto; border-top: 0; padding-top: 0; }
+  .cover-rules { grid-template-columns: repeat(4, 1fr); }
   .contact-panel { break-before: page; }
-  h1 { break-before: page; }
+  main > h1 { break-before: page; }
+  h1 { font-size: 36px; margin: 42px 0 18px; padding-top: 12px; border-top-width: 5px; }
+  h2 { font-size: 23px; margin: 30px 0 10px; padding-left: 12px; border-left-width: 5px; }
+  h3 { font-size: 18px; margin: 22px 0 7px; }
+  p { margin: 8px 0; orphans: 3; widows: 3; }
+  ul { margin: 7px 0 12px; padding-left: 1.15rem; }
+  li { margin: 3px 0; }
+  hr { margin: 32px 0; }
+  blockquote { margin: 14px 0; padding: 12px 16px; }
+  .table-wrap { margin: 14px 0; }
+  th, td { padding: 8px 10px; }
   h2, h3 { break-after: avoid; }
-  table, pre, blockquote { break-inside: avoid; }
+  table, pre, blockquote, .table-wrap, .keep-block { break-inside: avoid; page-break-inside: avoid; }
+  .checklist-block { margin-top: 28px; }
+  .checklist-block h2 { margin-top: 0; }
+  .checklist-block ul { margin-bottom: 0; }
+  .compact-tail h2 { margin-top: 24px; }
+  .compact-tail p { margin: 7px 0; }
   a { color: inherit; text-decoration: none; }
 }
 </style>
@@ -125,16 +216,20 @@ tr:last-child td { border-bottom: 0; }
     <aside class="sidebar">
       <div class="brand">别把孩子的分数浪费在志愿表里</div>
       <div class="sub">新疆家长高考志愿风险识别手册<br>黄昊 Rex / 问路<br>MVP 初稿 2026-06-25</div>
-      <nav><a class="toc-level-2" href="#这本书不是什么">这本书不是什么</a>
+      <nav><a class="toc-level-1" href="#别把孩子的分数浪费在志愿表里">别把孩子的分数浪费在志愿表里</a>
+<a class="toc-level-1" href="#前言-这本书只解决一件事">前言：这本书只解决一件事</a>
+<a class="toc-level-2" href="#这本书不是什么">这本书不是什么</a>
 <a class="toc-level-2" href="#这本书是什么">这本书是什么</a>
 <a class="toc-level-2" href="#最重要的一句话">最重要的一句话</a>
 <a class="toc-level-2" href="#怎么使用这本书">怎么使用这本书</a>
+<a class="toc-level-1" href="#第一章-志愿填报的第一性原理">第一章：志愿填报的第一性原理</a>
 <a class="toc-level-2" href="#1-志愿填报的底层公式">1. 志愿填报的底层公式</a>
 <a class="toc-level-2" href="#2-先排不可逆风险">2. 先排不可逆风险</a>
 <a class="toc-level-2" href="#3-四层风险顺序">3. 四层风险顺序</a>
 <a class="toc-level-2" href="#4-能报-该报-敢报-不是一回事">4. “能报”“该报”“敢报”不是一回事</a>
 <a class="toc-level-2" href="#5-家长先做一张风险表">5. 家长先做一张风险表</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第二章-新疆家长的第一道锁-类别-科类-位次">第二章：新疆家长的第一道锁：类别、科类、位次</a>
 <a class="toc-level-2" href="#1-为什么先锁赛道">1. 为什么先锁赛道</a>
 <a class="toc-level-2" href="#2-2026-届家长先看这些字段">2. 2026 届家长先看这些字段</a>
 <a class="toc-level-2" href="#3-2027-届及以后家长要提前看选科">3. 2027 届及以后家长要提前看选科</a>
@@ -142,6 +237,7 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#5-单列-专项-预科不要靠口口相传">5. 单列、专项、预科不要靠口口相传</a>
 <a class="toc-level-2" href="#6-第一张表-赛道锁定表">6. 第一张表：赛道锁定表</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第三章-冲稳保不是万能药">第三章：冲稳保不是万能药</a>
 <a class="toc-level-2" href="#1-冲稳保到底是什么">1. 冲稳保到底是什么</a>
 <a class="toc-level-2" href="#2-家长对冲稳保最大的误解">2. 家长对冲稳保最大的误解</a>
 <a class="toc-level-2" href="#3-先做风险体检-再排梯度">3. 先做风险体检，再排梯度</a>
@@ -150,6 +246,7 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#6-保的底线">6. 保的底线</a>
 <a class="toc-level-2" href="#7-冲稳保表格">7. 冲稳保表格</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第四章-招生章程才是硬门槛">第四章：招生章程才是硬门槛</a>
 <a class="toc-level-2" href="#1-招生计划和招生章程不是一回事">1. 招生计划和招生章程不是一回事</a>
 <a class="toc-level-2" href="#2-章程里最该看的六类限制">2. 章程里最该看的六类限制</a>
 <a class="toc-level-2" href="#3-家长要警惕-看起来能报">3. 家长要警惕“看起来能报”</a>
@@ -158,6 +255,7 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#6-章程证据表">6. 章程证据表</a>
 <a class="toc-level-2" href="#7-六个已经做过的章程样例">7. 六个已经做过的章程样例</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第五章-ai-能帮你什么-不能替你做什么">第五章：AI 能帮你什么，不能替你做什么</a>
 <a class="toc-level-2" href="#1-ai-最适合做什么">1. AI 最适合做什么</a>
 <a class="toc-level-2" href="#2-ai-不适合做什么">2. AI 不适合做什么</a>
 <a class="toc-level-2" href="#3-正确的-ai-使用流程">3. 正确的 AI 使用流程</a>
@@ -165,6 +263,7 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#5-ai-输出要分级">5. AI 输出要分级</a>
 <a class="toc-level-2" href="#6-问路工作台的原则">6. 问路工作台的原则</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第六章-家长决策会怎么开">第六章：家长决策会怎么开</a>
 <a class="toc-level-2" href="#1-决策会只解决三个问题">1. 决策会只解决三个问题</a>
 <a class="toc-level-2" href="#2-先列底线-不要先列梦想">2. 先列底线，不要先列梦想</a>
 <a class="toc-level-2" href="#3-把四个变量分开打分">3. 把四个变量分开打分</a>
@@ -172,12 +271,14 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#5-决策会流程">5. 决策会流程</a>
 <a class="toc-level-2" href="#6-家庭确认表">6. 家庭确认表</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第七章-低分段不是没路-是不能乱押">第七章：低分段不是没路，是不能乱押</a>
 <a class="toc-level-2" href="#1-先把-本科执念-放下来">1. 先把“本科执念”放下来</a>
 <a class="toc-level-2" href="#2-低分段的四条主路径">2. 低分段的四条主路径</a>
 <a class="toc-level-2" href="#3-低分段最危险的三类坑">3. 低分段最危险的三类坑</a>
 <a class="toc-level-2" href="#4-低分段决策表">4. 低分段决策表</a>
 <a class="toc-level-2" href="#5-给低分段家长的一句话">5. 给低分段家长的一句话</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第八章-专项场景不能套通用模板">第八章：专项场景不能套通用模板</a>
 <a class="toc-level-2" href="#1-专项场景的共同特点">1. 专项场景的共同特点</a>
 <a class="toc-level-2" href="#2-军队院校">2. 军队院校</a>
 <a class="toc-level-2" href="#3-公安院校公安专业">3. 公安院校公安专业</a>
@@ -187,6 +288,7 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#7-艺术-体育-高职单招">7. 艺术、体育、高职单招</a>
 <a class="toc-level-2" href="#8-专项场景核验表">8. 专项场景核验表</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第九章-填报前-72-小时行动表">第九章：填报前 72 小时行动表</a>
 <a class="toc-level-2" href="#1-t-72-小时-资料归档">1. T-72 小时：资料归档</a>
 <a class="toc-level-2" href="#2-t-60-小时-红线排雷">2. T-60 小时：红线排雷</a>
 <a class="toc-level-2" href="#3-t-48-小时-确定-a-b-两套方案">3. T-48 小时：确定 A/B 两套方案</a>
@@ -196,6 +298,7 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#7-t-3-小时-停止大改">7. T-3 小时：停止大改</a>
 <a class="toc-level-2" href="#8-提交后做什么">8. 提交后做什么</a>
 <a class="toc-level-2" href="#本章自查">本章自查</a>
+<a class="toc-level-1" href="#第十章-一份合格的志愿方案长什么样">第十章：一份合格的志愿方案长什么样</a>
 <a class="toc-level-2" href="#1-合格方案的六个部分">1. 合格方案的六个部分</a>
 <a class="toc-level-2" href="#2-不合格方案的典型样子">2. 不合格方案的典型样子</a>
 <a class="toc-level-2" href="#3-合格方案模板">3. 合格方案模板</a>
@@ -245,22 +348,36 @@ tr:last-child td { border-bottom: 0; }
 <a class="toc-level-2" href="#5-真实案例脱敏规则">5. 真实案例脱敏规则</a>
 <a class="toc-level-2" href="#6-案例写作结构">6. 案例写作结构</a>
 <a class="toc-level-2" href="#7-公开版和内部版分开">7. 公开版和内部版分开</a>
-<a class="toc-level-2" href="#8-最低合格标准">8. 最低合格标准</a></nav>
+<a class="toc-level-2" href="#8-最低合格标准">8. 最低合格标准</a>
+<a class="toc-level-1" href="#附录-f-脱敏真实案例">附录 F：脱敏真实案例</a>
+<a class="toc-level-2" href="#案例一-铁路相关专业调剂风险">案例一：铁路相关专业调剂风险</a>
+<a class="toc-level-2" href="#这个案例真正说明什么">这个案例真正说明什么</a>
+<a class="toc-level-2" href="#公开使用边界">公开使用边界</a></nav>
     </aside>
     <main>
       <section class="cover">
-        <div class="kicker">新疆家长高考志愿风险识别手册</div>
-        <h1>别把孩子的分数浪费在志愿表里</h1>
-        <div class="subtitle">不是推荐学校，是先帮家长排掉不可逆错误。</div>
-        <div class="meta">黄昊 Rex / 问路<br>MVP 初稿 2026-06-25</div>
+        <div class="cover-inner">
+          <div class="kicker">XINJIANG VOLUNTEER RISK HANDBOOK</div>
+          <div class="cover-title">
+            <h1>别把孩子的分数浪费在志愿表里</h1>
+            <div class="subtitle">不是推荐学校，是先帮家长排掉不可逆错误。</div>
+            <div class="cover-rules">
+              <span>位次核验</span>
+              <span>章程红线</span>
+              <span>专业调剂</span>
+              <span>专项批次</span>
+            </div>
+          </div>
+          <div class="meta"><span>新疆家长高考志愿风险识别手册</span><span>黄昊 Rex / 问路 · MVP 初稿 2026-06-25</span></div>
+        </div>
       </section>
-      <p>﻿# 别把孩子的分数浪费在志愿表里</p>
+      <h1 id="别把孩子的分数浪费在志愿表里">别把孩子的分数浪费在志愿表里</h1>
 <p>副标题：新疆家长高考志愿风险识别手册</p>
 <p>作者：黄昊 Rex / 问路</p>
 <p>版本：MVP 初稿 2026-06-25</p>
 <blockquote>免责声明：本书为通用风险识别手册，不构成个性化志愿填报方案，不承诺任何录取结果。政策、批次、时间、招生计划、选科要求、章程限制等，以新疆教育考试院、招生高校和当年官方发布为准。</blockquote>
 <hr>
-<p>﻿# 前言：这本书只解决一件事</p>
+<h1 id="前言-这本书只解决一件事">前言：这本书只解决一件事</h1>
 <p>这本书只解决一件事：<strong>别让孩子的分数，死在志愿表里的低级错误上。</strong></p>
 <p>高考分数出来以后，很多家长第一反应是问：“这个分能上什么学校？”</p>
 <p>这个问题太早了。</p>
@@ -299,13 +416,13 @@ tr:last-child td { border-bottom: 0; }
 <p>专业不满意，还有转专业、辅修、考研和就业路径调整。</p>
 <p>真正危险的是：资格不符、章程没看、类别弄错、调剂后悔、退档滑档、最后几小时慌乱提交。</p>
 <p>这些错误一旦发生，很多不是“再想想”能补救的。</p>
-<h2 id="怎么使用这本书">怎么使用这本书</h2>
+<section class="compact-tail use-guide-block"><h2 id="怎么使用这本书">怎么使用这本书</h2>
 <p>如果你是 2026 届家长，先看第一章到第四章，重点是类别、位次、招生章程和填报时间。</p>
 <p>如果你是 2027 届及以后家长，第二章和第五章要反复看，尤其是“3+1+2”选科要求和 AI 边界。</p>
 <p>如果你已经拿到 AI 生成的志愿表，不要急着用。先按第十章的报告模板做一次风险体检：字段全不全、来源明不明、红线有没有处理。</p>
 <p>这本书能帮你把问题问对。真正到具体方案时，仍然要回到官方文件、最新数据和家庭真实取舍。</p>
-<hr>
-<p>﻿# 第一章：志愿填报的第一性原理</p>
+</section><hr>
+<h1 id="第一章-志愿填报的第一性原理">第一章：志愿填报的第一性原理</h1>
 <p>本章结论：<strong>录取不是奖励努力，而是在规则约束下完成匹配。你先把规则、资格、数据、偏好分清楚，再谈学校名单。</strong></p>
 <p>家长最容易犯的第一个错误，是把志愿填报理解成“根据分数找学校”。</p>
 <p>这只是表层。</p>
@@ -429,16 +546,16 @@ tr:last-child td { border-bottom: 0; }
 </table></div>
 <p>这张表比学校清单更重要。</p>
 <p>学校清单可以改，红线错误不能带进系统。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 我有没有把“能报、该报、敢报”分开？</li>
 <li>[ ] 我有没有先排红线，而不是先列学校？</li>
 <li>[ ] 每个关键判断有没有来源？</li>
 <li>[ ] 最坏结果孩子和家长是否讨论过？</li>
 <li>[ ] AI 生成内容有没有人工复核？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第二章：新疆家长的第一道锁：类别、科类、位次</p>
+<h1 id="第二章-新疆家长的第一道锁-类别-科类-位次">第二章：新疆家长的第一道锁：类别、科类、位次</h1>
 <p>本章结论：<strong>新疆家长填志愿，第一步不是选学校，而是锁定赛道。类别、科类、位次没锁定，后面所有推荐都不可信。</strong></p>
 <p>很多家庭一上来就问：“这个分能不能上某某大学？”</p>
 <p>先别问。</p>
@@ -558,16 +675,16 @@ tr:last-child td { border-bottom: 0; }
 </tbody>
 </table></div>
 <p>这张表没填完，不进入学校推荐。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 我是否已经锁定孩子类别？</li>
 <li>[ ] 我是否已经锁定科类或首选科目？</li>
 <li>[ ] 我是否有准确位次，而不是只有分数？</li>
 <li>[ ] 我是否确认目标路径的资格要求？</li>
 <li>[ ] 我是否知道所有时间节点以官方发布为准？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第三章：冲稳保不是万能药</p>
+<h1 id="第三章-冲稳保不是万能药">第三章：冲稳保不是万能药</h1>
 <p>本章结论：<strong>冲稳保只是排序方法，不是风险控制系统。真正的风险控制，要先排红线、资格和数据，再谈冲稳保比例。</strong></p>
 <p>家长最爱问：“冲几个、稳几个、保几个？”</p>
 <p>这个问题有用，但不是第一个问题。</p>
@@ -692,16 +809,16 @@ tr:last-child td { border-bottom: 0; }
 </tbody>
 </table></div>
 <p>如果“最坏结果”这一列写不出来，就不要急着提交。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 我有没有先排红线，再排冲稳保？</li>
 <li>[ ] 每个冲的志愿，最坏专业能不能接受？</li>
 <li>[ ] 保底是不是全家都认可的真保底？</li>
 <li>[ ] 稳的依据是不是位次和计划，不是去年分数？</li>
 <li>[ ] 是否准备了方案 B？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第四章：招生章程才是硬门槛</p>
+<h1 id="第四章-招生章程才是硬门槛">第四章：招生章程才是硬门槛</h1>
 <p>本章结论：<strong>招生计划告诉你有没有名额，招生章程告诉你有没有资格。家长不看章程，就等于闭眼签风险。</strong></p>
 <p>很多家长愿意花几个小时看学校排名，却不愿花十分钟看招生章程。</p>
 <p>这是志愿填报里最亏的时间分配。</p>
@@ -833,16 +950,16 @@ tr:last-child td { border-bottom: 0; }
 <li>服从调剂会被调到哪里，不服从会发生什么？</li>
 </ul>
 <p>四句答不清，学校先不进最终表。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 我是否逐校看过招生章程？</li>
 <li>[ ] 我是否知道每个目标专业的限制？</li>
 <li>[ ] 服从调剂范围是否说得清楚？</li>
 <li>[ ] 特殊类型是否完成官方资格核验？</li>
 <li>[ ] 章程证据是否留存截图或链接？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第五章：AI 能帮你什么，不能替你做什么</p>
+<h1 id="第五章-ai-能帮你什么-不能替你做什么">第五章：AI 能帮你什么，不能替你做什么</h1>
 <p>本章结论：<strong>AI 是整理材料的助手，不是替家庭承担后果的裁判。用 AI 查漏可以，用 AI 拍板危险。</strong></p>
 <p>现在很多家长会把分数、位次、想去的城市丢给 AI，让它生成志愿表。</p>
 <p>这一步可以作为初筛，但不能作为最终方案。</p>
@@ -929,16 +1046,16 @@ tr:last-child td { border-bottom: 0; }
 <li>家长和考生：最终确认和签字。</li>
 </ul>
 <p>这才是可靠路径。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 我有没有让 AI 直接拍板？</li>
 <li>[ ] AI 输出的数据是否能追溯到官方来源？</li>
 <li>[ ] AI 是否标注了信息不足的地方？</li>
 <li>[ ] 体检、章程、专项资格是否人工复核？</li>
 <li>[ ] 家庭取舍是否由人来决定？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第六章：家长决策会怎么开</p>
+<h1 id="第六章-家长决策会怎么开">第六章：家长决策会怎么开</h1>
 <p>本章结论：<strong>志愿填报不是家长替孩子做选择，也不是孩子凭感觉任性选。必须开一次家庭决策会，把底线、偏好和最坏结果说透。</strong></p>
 <p>很多志愿冲突，不是信息不够，而是家庭内部没把话说开。</p>
 <p>父母想要稳定，孩子想要城市。</p>
@@ -1087,16 +1204,16 @@ tr:last-child td { border-bottom: 0; }
 </table></div>
 <p>这张表不是形式主义。</p>
 <p>它能避免录取后互相指责。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 孩子是否参与决策？</li>
 <li>[ ] 家长是否明确预算和地域底线？</li>
 <li>[ ] 不可接受专业是否列清楚？</li>
 <li>[ ] 调剂底线是否说清楚？</li>
 <li>[ ] 决策会是否留下记录？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第七章：低分段不是没路，是不能乱押</p>
+<h1 id="第七章-低分段不是没路-是不能乱押">第七章：低分段不是没路，是不能乱押</h1>
 <p>本章结论：<strong>低分段最怕的不是学校少，而是路径判断错。别只问“有没有本科”，先判断孩子适合升学、就业、复读还是技能路线。</strong></p>
 <p>低分段家庭最容易被两个情绪拖走。</p>
 <p>一个是羞耻感：觉得只要不是本科，就没有出路。</p>
@@ -1238,16 +1355,16 @@ tr:last-child td { border-bottom: 0; }
 <p>不要用一个“看起来体面”的录取结果，把孩子推进四年痛苦。</p>
 <p>也不要因为一时失落，放弃所有长期路径。</p>
 <p>把孩子的真实状态、家庭承受能力、专业出口、升学通道摊开看，能走的路会更清楚。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 我是否只盯着“有没有本科”？</li>
 <li>[ ] 我是否查过专业的真实课程和就业岗位？</li>
 <li>[ ] 我是否能承担目标路径的学费和生活成本？</li>
 <li>[ ] 如果选择复读，是否有明确提分计划？</li>
 <li>[ ] 孩子本人是否认可这个路径？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第八章：专项场景不能套通用模板</p>
+<h1 id="第八章-专项场景不能套通用模板">第八章：专项场景不能套通用模板</h1>
 <p>本章结论：<strong>军警公安、定向培养军士、医学定向、公费师范、南疆专项、预科、艺术体育等场景，都不能套普通批模板。先核资格和义务，再谈分数。</strong></p>
 <p>有些志愿不是普通选择，而是带条件的选择。</p>
 <p>它可能要求政审、面试、体检、体测。</p>
@@ -1424,16 +1541,16 @@ tr:last-child td { border-bottom: 0; }
 </tbody>
 </table></div>
 <p>附录 D 已把军队院校、公安院校、定向培养军士、中国消防救援学院、高职单招做成专项类型核验卡。正式填报时，先按附录 D 逐项过资格、流程、考核结论和后果，再讨论学校排序。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 我是否把专项场景当普通批来填？</li>
 <li>[ ] 是否查到官方通知和资格名单？</li>
 <li>[ ] 是否清楚政审、体检、面试、体测时间？</li>
 <li>[ ] 是否理解服务年限和违约责任？</li>
 <li>[ ] 孩子本人是否接受这条路径的真实生活？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第九章：填报前 72 小时行动表</p>
+<h1 id="第九章-填报前-72-小时行动表">第九章：填报前 72 小时行动表</h1>
 <p>本章结论：<strong>最后 72 小时不要再幻想重做人生规划，只做四件事：资料核验、风险排雷、志愿确认、录入留痕。</strong></p>
 <p>填报前最后几天，家长最容易进入混乱状态。</p>
 <p>一会儿听亲戚说这个学校好，一会儿刷到短视频说那个专业火，一会儿又被群里的截图吓到。</p>
@@ -1602,16 +1719,16 @@ tr:last-child td { border-bottom: 0; }
 <li>把准考证、身份证、系统截图发群里。</li>
 <li>轻信“内部补录”“花钱改志愿”“保录取”。</li>
 </ul>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 所有材料是否集中归档？</li>
 <li>[ ] 红线是否逐项清掉？</li>
 <li>[ ] 是否至少准备 A/B 两套方案？</li>
 <li>[ ] 是否做过调剂后果检查？</li>
 <li>[ ] 是否保存提交截图和时间？</li>
-</ul>
+</ul></section>
 <hr>
-<p>﻿# 第十章：一份合格的志愿方案长什么样</p>
+<h1 id="第十章-一份合格的志愿方案长什么样">第十章：一份合格的志愿方案长什么样</h1>
 <p>本章结论：<strong>合格志愿方案不是一张学校表，而是一套可复核的决策文件。它必须包含依据、风险、备选方案和家长确认。</strong></p>
 <p>很多家长以为，志愿方案就是一排学校和专业。</p>
 <p>这太薄了。</p>
@@ -1888,14 +2005,14 @@ tr:last-child td { border-bottom: 0; }
 <p>这套标准比“推荐更准”更有壁垒。</p>
 <p>推荐人人都能做。</p>
 <p>让家长少踩硬坑，才是长期信任。</p>
-<h2 id="本章自查">本章自查</h2>
+<section class="keep-block checklist-block"><h2 id="本章自查">本章自查</h2>
 <ul>
 <li>[ ] 方案是否有完整信息卡？</li>
 <li>[ ] 数据来源是否可追溯？</li>
 <li>[ ] 每个重点专业是否查过章程？</li>
 <li>[ ] 是否有风险说明和备选方案？</li>
 <li>[ ] 家长和孩子是否完成确认？</li>
-</ul>
+</ul></section>
 <hr>
 <h1 id="附录-a-招生章程核验表">附录 A：招生章程核验表</h1>
 <p>本附录结论：<strong>招生章程核验不是资料收集，是志愿方案的红线检测。查不到原文、说不清限制、留不下证据，该院校或专业就不能进入最终方案。</strong></p>
@@ -2507,8 +2624,8 @@ tr:last-child td { border-bottom: 0; }
 </tr>
 <tr>
 <td>脱敏真实案例</td>
-<td>目前只有合成案例</td>
-<td>用真实咨询案例替换，去除身份信息</td>
+<td>已补充 1 个脱敏真实案例，合成案例仍用于方法演示</td>
+<td>后续继续补真实咨询案例，去除身份信息</td>
 </tr>
 </tbody>
 </table></div>
@@ -3159,19 +3276,86 @@ tr:last-child td { border-bottom: 0; }
 <li>没有任何录取承诺表达。</li>
 </ul>
 <p>缺任一项，就先放在内部素材库，不进入公开书稿。</p>
+<hr>
+<h1 id="附录-f-脱敏真实案例">附录 F：脱敏真实案例</h1>
+<p>本附录结论：<strong>真实案例只能用来展示风险识别过程，不能包装成“成功案例”。如果没有完整授权和可复核证据，只写决策边界，不写个人身份，不写录取承诺。</strong></p>
+<p>更新时间：2026-06-30</p>
+<h2 id="案例一-铁路相关专业调剂风险">案例一：铁路相关专业调剂风险</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>项目</th>
+<th>内容</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>案例类型</td>
+<td>真实咨询过程脱敏记录</td>
+</tr>
+<tr>
+<td>大致分段 / 位次段</td>
+<td>口述资料未提供具体分数或位次。本案例不作为分数段样本使用，只记录决策风险。</td>
+</tr>
+<tr>
+<td>类别 / 科类</td>
+<td>口述资料未说明文理科类，本案例不做科类推断。</td>
+</tr>
+<tr>
+<td>家长原始问题</td>
+<td>家庭有铁路相关行业背景，希望孩子就读铁路相关专业，倾向选择一所该方向实力较强的院校，关心能否进入目标专业。</td>
+</tr>
+<tr>
+<td>最初误区</td>
+<td>把“往年录取数据支持进校概率较高”误认为“进校后目标专业结果已经确定”，低估了同一院校大类内不同专业之间的调剂风险。</td>
+</tr>
+<tr>
+<td>关键证据</td>
+<td>往年录取数据只支持“被该校录取概率较高”的判断，不支持“目标专业结果已经确定”的判断；该校在相关行业方向实力较强；招生规则中同一大类下设置多个专业，存在专业调剂可能。</td>
+</tr>
+<tr>
+<td>最终处理动作</td>
+<td>规划师在决定前明确告知家庭：存在被调剂到相对冷门专业的可能；家庭与考生在知情前提下，仍共同决定将该校相关专业方向作为目标志愿。</td>
+</tr>
+<tr>
+<td>结果边界</td>
+<td>实际被该校录取，未进入最初目标专业，被调剂到同校另一专业。本案例只呈现“不确定性在决定前已充分告知”，不构成对任何院校或专业录取结果的承诺、预测或复盘模板。</td>
+</tr>
+<tr>
+<td>后续状态</td>
+<td>是否通过转专业、辅修、考研或其他路径回到原目标方向，未跟踪，无法确认。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="这个案例真正说明什么">这个案例真正说明什么</h2>
+<p>这个案例的核心风险不是“学校能不能上”，而是“进校后是不是目标专业”。</p>
+<p>家长容易把三件事混成一个问题：</p>
+<ul>
+<li>院校层面：能否进校。</li>
+<li>专业层面：能否进入目标专业。</li>
+<li>后果层面：若被调剂，家庭是否能接受。</li>
+</ul>
+<p>规划师的责任不是把不确定性讲成确定性，而是在填报前把不确定性摆到桌面上，让家庭用真实后果做选择。</p>
+<h2 id="公开使用边界">公开使用边界</h2>
+<ul>
+<li>不公开原始咨询记录。</li>
+<li>不公开考生身份信息。</li>
+<li>不公开具体院校和专业名称。</li>
+<li>不公开未授权的分数、位次、联系方式、毕业学校等可识别信息。</li>
+<li>不把该案例包装成“成功案例”。</li>
+<li>只用于说明：专业调剂风险必须在填报前说清楚，不能等录取后再解释。</li>
+</ul>
       
       <section class="contact-panel" id="咨询入口">
-        <div class="status">咨询入口待配置</div>
+        <div class="status">咨询入口已配置</div>
         <h2>Rex / 问路咨询入口</h2>
         <div class="contact-grid">
           <div>
             <p><strong>新疆高考志愿风险体检</strong></p>
-            <p>先做资料核验，再决定是否进入一对一方案。</p>
-            <div class="contact-list"><div><strong>当前状态：</strong>尚未填写真实微信、公众号、预约链接或二维码。</div></div>
+            <p>微信扫码关注黄昊 Rex，先做资料核验，再决定是否进入一对一方案。</p>
+            <div class="contact-list"><div><strong>公众号：</strong>黄昊 Rex</div></div>
             <p><strong>服务边界：</strong>只做风险识别、方案复核和决策辅助，不承诺录取结果。</p>
-            <p>当前公开版未配置真实咨询入口。正式发布前请填写微信、公众号、预约链接或二维码。</p>
+            <p>扫码后先发送考生类别、科类、分数、位次和当前志愿草案；不完整材料不给强结论。</p>
           </div>
-          <div class="qr-box">二维码待配置<br>不要带占位图发布</div>
+          <img class="qr-box" src="../assets/wechat-qr.png" alt="咨询二维码">
         </div>
       </section>
 

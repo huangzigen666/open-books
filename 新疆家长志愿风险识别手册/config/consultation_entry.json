@@ -1,14 +1,14 @@
-{
-  "status": "draft",
+﻿{
+  "status": "active",
   "owner": "黄昊 Rex / 问路",
   "service_name": "新疆高考志愿风险体检",
-  "primary_action": "先做资料核验，再决定是否进入一对一方案。",
+  "primary_action": "微信扫码关注黄昊 Rex，先做资料核验，再决定是否进入一对一方案。",
   "wechat_id": "",
-  "public_account": "",
+  "public_account": "黄昊 Rex",
   "video_account": "",
   "booking_url": "",
   "workbench_url": "",
-  "qr_image": "",
-  "notice": "当前公开版未配置真实咨询入口。正式发布前请填写微信、公众号、预约链接或二维码。",
+  "qr_image": "assets/wechat-qr.png",
+  "notice": "扫码后先发送考生类别、科类、分数、位次和当前志愿草案；不完整材料不给强结论。",
   "service_boundary": "只做风险识别、方案复核和决策辅助，不承诺录取结果。"
 }

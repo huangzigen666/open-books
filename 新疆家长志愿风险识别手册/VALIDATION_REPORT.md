@@ -1,13 +1,13 @@
 # 发布校验报告
 
-生成时间：2026-06-26 03:37:32
+生成时间：2026-06-30 05:28:20
 
-结论：**不可大规模公开发布**
+结论：**可公开发布**
 
 ## 统计
 
 - FAIL：0
-- BLOCKER：4
+- BLOCKER：0
 - WARN：0
 - REVIEW：11
 - INFO：1
@@ -21,17 +21,13 @@
 | REVIEW | promise-word | - 轻信“内部补录”“花钱改志愿”“保录取”。 | book_full.md:1419 |
 | REVIEW | promise-word | - 要求“保录取”“内部名额”“花钱改结果”。 | book_full.md:1962 |
 | REVIEW | promise-word | - “保录取”“内部名额”“低分捡漏”等宣传话术。 | CONTRIBUTING.md:16 |
-| REVIEW | promise-word | - [ ] 没有“保录取、包过、必上、稳上、100%”等承诺表达。 | RELEASE_CHECKLIST.md:11 |
+| REVIEW | promise-word | - 不能说“保录取、包过、必上、稳上、100%”。 | PUBLICATION_NOTES.md:37 |
 | REVIEW | promise-word | - 要求“保录取”“内部名额”“花钱改结果”。 | appendix/附录C_联系与服务边界.md:49 |
 | REVIEW | promise-word | 任何“稳上”“必录”“放心填”的 AI 结论，都要降级处理。 | chapters/05_AI能帮什么不能替你做什么.md:61 |
 | REVIEW | promise-word | - 轻信“内部补录”“花钱改志愿”“保录取”。 | chapters/09_填报前72小时行动表.md:160 |
 | REVIEW | promise-word | - 不用“必上”“稳上”“保录取”“100%”等表达。 | research/官方依据_2026-06-25.md:63 |
 | REVIEW | promise-word | - “保录取” | templates/咨询入口配置表.md:38 |
-| BLOCKER | consultation-config | 咨询入口仍为 draft，不能大规模获客发布 | config/consultation_entry.json |
-| BLOCKER | consultation-config | 没有填写任何真实承接入口 | config/consultation_entry.json |
 | INFO | cases | 当前合成案例数量：3 | cases |
-| BLOCKER | cases | 尚无脱敏真实案例，不能宣称真实案例支撑 | cases |
-| BLOCKER | system-evidence | 尚未放入真实个案成绩/位次或招生计划目录系统证据 | evidence/system |
 
 ## 判定规则
 
